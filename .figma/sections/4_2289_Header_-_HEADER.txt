@@ -1,0 +1,80 @@
+- FRAME "Header - HEADER" [-1350,-9932 1920x53] id=4:2289
+    layout=VERTICAL pad=0/20/0/20
+  - FRAME "Container" [-1330,-9932 1880x53] id=4:2290
+      layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=598
+    - FRAME "Link - Nanolix Digital - Homepage" [-1330,-9932 170x53] id=4:2291
+        layout=VERTICAL pad=0/0/4/0
+      - INSTANCE "Component 3" [-1330,-9932 170x49] id=4:2292
+        - GROUP "Group" [-1279,-9927 119x39] id=I4:2292;4:79
+          - VECTOR "Vector" [-1279,-9900 10x12] id=I4:2292;4:80
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1257,-9900 2x12] id=I4:2292;4:81
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1244,-9900 11x12] id=I4:2292;4:82
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1220,-9900 2x12] id=I4:2292;4:83
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1207,-9900 8x12] id=I4:2292;4:84
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1188,-9900 10x12] id=I4:2292;4:85
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1166,-9900 6x12] id=I4:2292;4:86
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1279,-9926 16x18] id=I4:2292;4:87
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1261,-9926 18x18] id=I4:2292;4:88
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1239,-9926 16x18] id=I4:2292;4:89
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1220,-9927 18x19] id=I4:2292;4:90
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1197,-9926 10x18] id=I4:2292;4:91
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1184,-9926 4x18] id=I4:2292;4:92
+              fills: SOLID rgb(255,255,255)
+          - VECTOR "Vector" [-1177,-9926 17x18] id=I4:2292;4:93
+              fills: SOLID rgb(255,255,255)
+        - GROUP "Group" [-1329,-9932 40x49] id=I4:2292;4:94
+          - VECTOR "Vector" [-1323,-9932 34x49] id=I4:2292;4:95
+              fills: SOLID rgb(255,98,31)
+          - VECTOR "Vector" [-1308,-9932 19x24] id=I4:2292;4:96
+              fills: SOLID rgb(255,98,31)
+          - VECTOR "Vector" [-1329,-9907 19x24] id=I4:2292;4:97
+              fills: SOLID rgb(255,98,31)
+    - FRAME "Nav" [-576,-9916 418x21] id=4:2293
+        layout=HORIZONTAL counter=CENTER gap=32
+      - INSTANCE "Component 9" [-576,-9916 83x21] id=4:2294
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Text" [-576,-9916 83x20] id=I4:2294;4:215
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 16/20.399 tracking=-0.32 align=LEFT
+            text: "Who it’s for"
+      - INSTANCE "Component 9" [-461,-9916 116x21] id=4:2295
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Text" [-461,-9916 116x20] id=I4:2295;4:215
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 16/20.399 tracking=-0.32 align=LEFT
+            text: "What’s included"
+      - INSTANCE "Component 9" [-313,-9916 50x21] id=4:2296
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Text" [-313,-9916 50x20] id=I4:2296;4:215
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 16/20.399 tracking=-0.32 align=LEFT
+            text: "Pricing"
+      - INSTANCE "Component 9" [-231,-9916 73x21] id=4:2297
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Text" [-231,-9916 73x20] id=I4:2297;4:215
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 16/20.399 tracking=-0.32 align=LEFT
+            text: "Questions"
+    - INSTANCE "Component 2" [427,-9931 123x51] id=4:2298
+        layout=HORIZONTAL primary=CENTER counter=CENTER pad=15/40/15/40 radius=40
+        fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+      - RECTANGLE "Gradient+Blur" [309,-9979 369x166] id=I4:2298;4:29
+          fills: GRADIENT_RADIAL 0%:rgb(255,208,122) 50%:rgba(255,208,122,0)
+      - FRAME "Container" [467,-9916 43x21] id=I4:2298;4:30
+          layout=VERTICAL counter=CENTER pad=0/0/1/0
+        - TEXT "Text" [467,-9916 43x20] id=I4:2298;4:31
+            fills: SOLID rgb(255,255,255)
+            font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+            text: "Apply"

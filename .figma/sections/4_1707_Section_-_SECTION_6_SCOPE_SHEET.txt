@@ -1,0 +1,393 @@
+- FRAME "Section - SECTION 6 — SCOPE SHEET" [-1030,-5932 1280x915] id=4:1707
+    layout=VERTICAL pad=50/0/0/0
+  - FRAME "Container" [-1030,-5882 760x88] id=4:1708
+      layout=VERTICAL gap=20
+    - FRAME "Container" [-1030,-5882 760x18] id=4:1709
+        layout=HORIZONTAL counter=CENTER
+      - FRAME "Margin" [-1030,-5874 48x3] id=4:1710
+          layout=VERTICAL pad=0/8/0/0
+        - RECTANGLE "Overlay" [-1030,-5874 40x3] id=4:1711
+            radius=10
+            fills: SOLID rgb(255,255,255)
+      - FRAME "Container" [-982,-5882 42x18] id=4:1712
+          layout=VERTICAL
+        - TEXT "Scope" [-982,-5882 42x18] id=4:1713
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+            text: "Scope"
+    - FRAME "Heading 2" [-1030,-5844 760x50] id=4:1714
+        layout=VERTICAL
+      - TEXT "What’s included. And what's not" [-1030,-5844 612x50] id=4:1715
+          fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+          font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+          text: "What’s included. And what's not"
+  - FRAME "Border" [-1030,-5794 1280x718] id=4:1716
+      layout=HORIZONTAL primary=CENTER pad=50/0/0/0
+      STROKE SOLID rgb(255,255,255) w=1
+    - FRAME "VerticalBorder" [-1030,-5743 864x666] id=4:1717
+        layout=VERTICAL gap=20 pad=38/36/38/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Heading 4" [-1030,-5705 827x33] id=4:1718
+          layout=VERTICAL
+        - TEXT "Included in your build" [-1030,-5705 274x33] id=4:1719
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+            text: "Included in your build"
+      - FRAME "Container" [-1030,-5652 827x504] id=4:1720
+          layout=VERTICAL
+        - FRAME "HorizontalBorder" [-1030,-5652 827x42] id=4:1721
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5642 18x21] id=4:1722
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5639 18x18] id=4:1723
+              - VECTOR "Vector" [-1027,-5634 12x8] id=I4:1723;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5642 141x21] id=4:1724
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Up to 3 to 5 pages" [-1000,-5642 141x20] id=4:1725
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Up to 3 to 5 pages"
+        - FRAME "HorizontalBorder" [-1030,-5610 827x42] id=4:1726
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5600 18x21] id=4:1727
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5597 18x18] id=4:1728
+              - VECTOR "Vector" [-1027,-5592 12x8] id=I4:1728;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5600 335x21] id=4:1729
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Professional design from our template library" [-1000,-5600 335x20] id=4:1730
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Professional design from our template library"
+        - FRAME "HorizontalBorder" [-1030,-5568 827x42] id=4:1731
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5558 18x21] id=4:1732
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5555 18x18] id=4:1733
+              - VECTOR "Vector" [-1027,-5550 12x8] id=I4:1733;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5558 182x21] id=4:1734
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Mobile responsive setup" [-1000,-5558 182x20] id=4:1735
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Mobile responsive setup"
+        - FRAME "HorizontalBorder" [-1030,-5526 827x42] id=4:1736
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5516 18x21] id=4:1737
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5513 18x18] id=4:1738
+              - VECTOR "Vector" [-1027,-5508 12x8] id=I4:1738;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5516 168x21] id=4:1739
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Basic search structure" [-1000,-5516 168x20] id=4:1740
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Basic search structure"
+        - FRAME "HorizontalBorder" [-1030,-5484 827x42] id=4:1741
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5474 18x21] id=4:1742
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5471 18x18] id=4:1743
+              - VECTOR "Vector" [-1027,-5466 12x8] id=I4:1743;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5474 100x21] id=4:1744
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Contact form" [-1000,-5474 100x20] id=4:1745
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Contact form"
+        - FRAME "HorizontalBorder" [-1030,-5442 827x42] id=4:1746
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5432 18x21] id=4:1747
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5429 18x18] id=4:1748
+              - VECTOR "Vector" [-1027,-5424 12x8] id=I4:1748;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5432 158x21] id=4:1749
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Basic analytics setup" [-1000,-5432 158x20] id=4:1750
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Basic analytics setup"
+        - FRAME "HorizontalBorder" [-1030,-5400 827x42] id=4:1751
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5390 18x21] id=4:1752
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5387 18x18] id=4:1753
+              - VECTOR "Vector" [-1027,-5382 12x8] id=I4:1753;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5390 243x21] id=4:1754
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Basic security recommendations" [-1000,-5390 243x20] id=4:1755
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Basic security recommendations"
+        - FRAME "HorizontalBorder" [-1030,-5358 827x42] id=4:1756
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5348 18x21] id=4:1757
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5345 18x18] id=4:1758
+              - VECTOR "Vector" [-1027,-5340 12x8] id=I4:1758;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5348 185x21] id=4:1759
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Basic speed optimization" [-1000,-5348 185x20] id=4:1760
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Basic speed optimization"
+        - FRAME "HorizontalBorder" [-1030,-5316 827x42] id=4:1761
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5306 18x21] id=4:1762
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5303 18x18] id=4:1763
+              - VECTOR "Vector" [-1027,-5298 12x8] id=I4:1763;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5306 212x21] id=4:1764
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Easy editing handoff tutorial" [-1000,-5306 212x20] id=4:1765
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Easy editing handoff tutorial"
+        - FRAME "HorizontalBorder" [-1030,-5274 827x42] id=4:1766
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5264 18x21] id=4:1767
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5261 18x18] id=4:1768
+              - VECTOR "Vector" [-1027,-5256 12x8] id=I4:1768;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5264 119x21] id=4:1769
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Launch support" [-1000,-5264 119x20] id=4:1770
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Launch support"
+        - FRAME "HorizontalBorder" [-1030,-5232 827x42] id=4:1771
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5222 18x21] id=4:1772
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5219 18x18] id=4:1773
+              - VECTOR "Vector" [-1027,-5214 12x8] id=I4:1773;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5222 141x21] id=4:1774
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "One revision round" [-1000,-5222 141x20] id=4:1775
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "One revision round"
+        - FRAME "HorizontalBorder" [-1030,-5190 827x42] id=4:1776
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-1030,-5180 18x21] id=4:1777
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-1030,-5177 18x18] id=4:1778
+              - VECTOR "Vector" [-1027,-5172 12x8] id=I4:1778;4:49
+                  STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+          - FRAME "Container" [-1000,-5180 483x21] id=4:1779
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Standard timeline, typically one to two weeks after your content" [-1000,-5180 483x20] id=4:1780
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Standard timeline, typically one to two weeks after your content"
+    - FRAME "Container" [-166,-5743 416x666] id=4:1781
+        layout=VERTICAL gap=20 pad=38/36/38/36
+      - FRAME "Heading 4" [-130,-5705 344x66] id=4:1782
+          layout=VERTICAL
+        - TEXT "Not included, available as upgrades" [-130,-5705 326x66] id=4:1783
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+            text: "Not included, available as\\nupgrades"
+      - FRAME "Container" [-130,-5619 344x504] id=4:1784
+          layout=VERTICAL
+        - FRAME "HorizontalBorder" [-130,-5619 344x42] id=4:1785
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5609 18x21] id=4:1786
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5606 18x18] id=4:1787
+              - VECTOR "Vector" [-126,-5597 9x0] id=I4:1787;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5609 212x21] id=4:1788
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Custom design from scratch" [-100,-5609 212x20] id=4:1789
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Custom design from scratch"
+        - FRAME "HorizontalBorder" [-130,-5577 344x42] id=4:1790
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5567 18x21] id=4:1791
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5564 18x18] id=4:1792
+              - VECTOR "Vector" [-126,-5555 9x0] id=I4:1792;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5567 159x21] id=4:1793
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Custom development" [-100,-5567 159x20] id=4:1794
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Custom development"
+        - FRAME "HorizontalBorder" [-130,-5535 344x42] id=4:1795
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5525 18x21] id=4:1796
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5522 18x18] id=4:1797
+              - VECTOR "Vector" [-126,-5513 9x0] id=I4:1797;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5525 192x21] id=4:1798
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Copywriting from scratch" [-100,-5525 192x20] id=4:1799
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Copywriting from scratch"
+        - FRAME "HorizontalBorder" [-130,-5493 344x42] id=4:1800
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5483 18x21] id=4:1801
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5480 18x18] id=4:1802
+              - VECTOR "Vector" [-126,-5471 9x0] id=I4:1802;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5483 207x21] id=4:1803
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Logo and full brand identity" [-100,-5483 207x20] id=4:1804
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Logo and full brand identity"
+        - FRAME "HorizontalBorder" [-130,-5451 344x42] id=4:1805
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5441 18x21] id=4:1806
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5438 18x18] id=4:1807
+              - VECTOR "Vector" [-126,-5429 9x0] id=I4:1807;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5441 229x21] id=4:1808
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Motion graphics and animation" [-100,-5441 229x20] id=4:1809
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Motion graphics and animation"
+        - FRAME "HorizontalBorder" [-130,-5409 344x42] id=4:1810
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5399 18x21] id=4:1811
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5396 18x18] id=4:1812
+              - VECTOR "Vector" [-126,-5387 9x0] id=I4:1812;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5399 197x21] id=4:1813
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Online store and checkout" [-100,-5399 197x20] id=4:1814
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Online store and checkout"
+        - FRAME "HorizontalBorder" [-130,-5367 344x42] id=4:1815
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5357 18x21] id=4:1816
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5354 18x18] id=4:1817
+              - VECTOR "Vector" [-126,-5345 9x0] id=I4:1817;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5357 172x21] id=4:1818
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Advanced search work" [-100,-5357 172x20] id=4:1819
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Advanced search work"
+        - FRAME "HorizontalBorder" [-130,-5325 344x42] id=4:1820
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5315 18x21] id=4:1821
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5312 18x18] id=4:1822
+              - VECTOR "Vector" [-126,-5303 9x0] id=I4:1822;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5315 216x21] id=4:1823
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Customer follow-up systems" [-100,-5315 216x20] id=4:1824
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Customer follow-up systems"
+        - FRAME "HorizontalBorder" [-130,-5283 344x42] id=4:1825
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5273 18x21] id=4:1826
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5270 18x18] id=4:1827
+              - VECTOR "Vector" [-126,-5261 9x0] id=I4:1827;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5273 164x21] id=4:1828
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Paid ads management" [-100,-5273 164x20] id=4:1829
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Paid ads management"
+        - FRAME "HorizontalBorder" [-130,-5241 344x42] id=4:1830
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5231 18x21] id=4:1831
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5228 18x18] id=4:1832
+              - VECTOR "Vector" [-126,-5219 9x0] id=I4:1832;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5231 193x21] id=4:1833
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Ongoing content updates" [-100,-5231 193x20] id=4:1834
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Ongoing content updates"
+        - FRAME "HorizontalBorder" [-130,-5199 344x42] id=4:1835
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5189 18x21] id=4:1836
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5186 18x18] id=4:1837
+              - VECTOR "Vector" [-126,-5177 9x0] id=I4:1837;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5189 233x21] id=4:1838
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "App and web app development" [-100,-5189 233x20] id=4:1839
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "App and web app development"
+        - FRAME "HorizontalBorder" [-130,-5157 344x42] id=4:1840
+            layout=HORIZONTAL gap=12 pad=10/0/10/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "SVG:margin" [-130,-5147 18x21] id=4:1841
+              layout=VERTICAL pad=3/0/0/0
+            - INSTANCE "Component 3" [-130,-5144 18x18] id=4:1842
+              - VECTOR "Vector" [-126,-5135 9x0] id=I4:1842;4:52
+                  STROKE SOLID rgb(122,122,122) w=1.5
+          - FRAME "Container" [-100,-5147 140x21] id=4:1843
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Unlimited revisions" [-100,-5147 140x20] id=4:1844
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                text: "Unlimited revisions"
+  - FRAME "Overlay+HorizontalBorder" [-1030,-5076 1280x59] id=4:1845
+      layout=VERTICAL pad=20/0/20/0
+      fills: SOLID rgb(255,98,31)
+      STROKE SOLID rgb(255,255,255) w=0
+    - FRAME "Container" [-1030,-5056 1280x18] id=4:1846
+        layout=VERTICAL
+      - TEXT "Strong → Required:" [-1030,-5056 1280x18] id=4:1847
+          fills: SOLID rgb(255,255,255)
+          font=Onest 600 14/17.850 tracking=0.00 align=LEFT
+          text: "Required: the care plan, $39 to $59 a month, six month minimum. Optional, always: everything in the second column."

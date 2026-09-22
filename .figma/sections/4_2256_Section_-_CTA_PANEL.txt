@@ -1,0 +1,42 @@
+- FRAME "Section - CTA PANEL" [-1350,928 1920x433] id=4:2256
+    layout=VERTICAL pad=74/320/32/320
+    fills: GRADIENT_RADIAL 0%:rgba(255,98,31,0.14) 75%:rgba(255,98,31,0)
+  - FRAME "Container" [-1030,1002 1280x327] id=4:2257
+      layout=VERTICAL pad=43.474998474121094/320/44/320
+    - FRAME "Container" [-710,1045 640x240] id=4:2258
+        layout=VERTICAL gap=20
+      - FRAME "Heading 2" [-710,1045 640x100] id=4:2259
+          layout=VERTICAL counter=CENTER
+        - TEXT "A professional website, built for you." [-692,1045 604x100] id=4:2260
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 45/49.950 tracking=0.00 align=CENTER
+            text: "A professional website, built for\\nyou."
+      - FRAME "Container" [-710,1165 640x41] id=4:2261
+          layout=VERTICAL counter=CENTER pad=0/0/1/0
+        - TEXT "A real person reviews every application within 24-48hrs. No card, and no payment before you are accepted." [-724,1165 667x40] id=4:2262
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=CENTER
+            text: "A real person reviews every application within 24-48hrs. No card, and no payment before\\nyou are accepted."
+      - FRAME "Container" [-710,1226 640x59] id=4:2263
+          layout=HORIZONTAL primary=CENTER counter=CENTER gap=10 pad=4/0/0/0
+        - INSTANCE "Component 2" [-622,1230 214x55] id=4:2264
+            layout=HORIZONTAL primary=CENTER counter=CENTER pad=17/40/17/40 radius=40
+            fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+          - RECTANGLE "Gradient+Blur" [-827,1178 642x191] id=I4:2264;4:13
+              fills: GRADIENT_RADIAL 0%:rgb(255,208,122) 50%:rgba(255,208,122,0)
+          - FRAME "Container" [-582,1247 134x21] id=I4:2264;4:14
+              layout=VERTICAL counter=CENTER pad=0/0/1/0
+            - TEXT "Text" [-582,1247 134x20] id=I4:2264;4:15
+                fills: SOLID rgb(255,255,255)
+                font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                text: "Apply in 2 minutes"
+        - FRAME "Link" [-398,1231 239x53] id=4:2265
+            layout=HORIZONTAL primary=CENTER counter=CENTER pad=15/40/15/40 radius=40
+            fills: GRADIENT_LINEAR 12%:rgba(18,18,18,0.4) 48%:rgba(39,39,39,0.4) 85%:rgba(18,18,18,0.4)
+            STROKE SOLID rgb(83,83,83) w=1
+          - FRAME "Container" [-357,1247 157x21] id=4:2266
+              layout=VERTICAL counter=CENTER pad=0/0/1/0
+            - TEXT "Book a 15-Minute Call" [-357,1247 157x20] id=4:2267
+                fills: SOLID rgb(255,255,255)
+                font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                text: "Book a 15-Minute Call"

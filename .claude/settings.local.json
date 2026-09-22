@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Bash(npx *)",
+      "Bash(shopt -s dotglob nullglob)",
+      "Bash(mv nanolix-build-landing-page/* ./)",
+      "Bash(rmdir nanolix-build-landing-page *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -H \"X-Figma-Token: figd_To3rYolbBRBnCX3ODK3H8AhqpDqFxh5cndWL-F9N\" \"https://api.figma.com/v1/files/93k8W8NH6472wiSbpLSNbk/nodes?ids=4:1438&geometry=paths\" -o .figma/node-4-1438.json)",
+      "Bash(node *)",
+      "Bash(curl -s -H \"X-Figma-Token: figd_To3rYolbBRBnCX3ODK3H8AhqpDqFxh5cndWL-F9N\" \"https://api.figma.com/v1/images/93k8W8NH6472wiSbpLSNbk?ids=4:2269&format=svg\")",
+      "Bash(tee .figma/logo-urls.json)",
+      "Bash(curl -sL \"https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fb4340de-d3f4-4b94-817f-685d937c5e24\" -o public/figma/logo.svg)",
+      "Bash(npm run *)",
+      "Bash(npx next *)",
+      "Bash(echo \"dev-pid=$!\")",
+      "Bash(curl -s -o /dev/null -w \"status=%{http_code}\\\\n\" http://localhost:3021/)",
+      "Bash(kill 39755)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"next-router-worker\")",
+      "Bash(echo \"pid=$!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3021/)",
+      "Bash(curl -s -o /dev/null -w \"port3001=%{http_code}\\\\n\" http://localhost:3001/)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-scope.js)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-apply.js)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-ba.js)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-how.js)",
+      "Bash(curl *)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-btn.js)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-buttons-all.js)",
+      "WebFetch(domain:www.agency1776.com)",
+      "Bash(grep -n -A1 '<h[12]$\\\\|<h1$\\\\|<h2$' 'C:/Users/General/Documents/GitHub/Nanolix Build Landing Page/src/components/sections/__TRACKED_VAR__')"
+    ]
+  }
+}

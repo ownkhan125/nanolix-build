@@ -1,0 +1,207 @@
+- FRAME "Section - SECTION 5 — HOW IT WORKS" [-1350,-7168 1920x1156] id=4:1639
+    layout=VERTICAL pad=140/320/90/320
+    fills: GRADIENT_LINEAR 0%:rgb(9,9,9) 100%:rgb(3,3,3)
+    STROKE SOLID rgb(255,255,255) w=1
+  - FRAME "Container" [-1030,-7027 1280x924] id=4:1640
+      layout=HORIZONTAL primary=CENTER gap=70
+    - FRAME "Container" [-1030,-7027 300x88] id=4:1641
+        layout=VERTICAL gap=20
+      - FRAME "Container" [-1030,-7027 300x18] id=4:1642
+          layout=HORIZONTAL counter=CENTER
+        - FRAME "Margin" [-1030,-7019 48x3] id=4:1643
+            layout=VERTICAL pad=0/8/0/0
+          - RECTANGLE "Overlay" [-1030,-7019 40x3] id=4:1644
+              radius=10
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-982,-7027 80x18] id=4:1645
+            layout=VERTICAL
+          - TEXT "The process" [-982,-7027 80x18] id=4:1646
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "The process"
+      - FRAME "Heading 2" [-1030,-6989 300x50] id=4:1647
+          layout=VERTICAL
+        - TEXT "How it works" [-1030,-6989 251x50] id=4:1648
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+            text: "How it works"
+    - FRAME "Container" [-660,-7027 910x924] id=4:1649
+        layout=VERTICAL
+      - RECTANGLE "Vertical Divider" [-638,-7007 1x884] id=4:1650
+          fills: GRADIENT_LINEAR 0%:rgb(255,98,31) 100%:rgb(63,174,126)
+      - FRAME "Margin" [-660,-7027 910x132] id=4:1651
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "HorizontalBorder" [-590,-7027 840x132] id=4:1652
+            layout=VERTICAL gap=9 pad=9/0/69.41000366210938/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 6" [-590,-7018 840x23] id=4:1653
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "Apply, two minutes" [-590,-7018 840x22] id=4:1654
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "Apply, two minutes"
+          - FRAME "Container" [-590,-6986 840x21] id=4:1655
+              layout=VERTICAL
+            - TEXT "Three quick fields to start, one more minute for the rest. No prep needed, no card, no call required." [-590,-6986 840x21] id=4:1656
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "Three quick fields to start, one more minute for the rest. No prep needed, no card, no call required."
+          - FRAME "Background+Border" [-660,-7017 38x38] id=4:1657
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(10,10,10)
+              STROKE SOLID rgb(255,98,31) w=1
+            - TEXT "1" [-644,-7008 6x19] id=4:1658
+                fills: SOLID rgb(255,98,31)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "1"
+      - FRAME "Margin" [-660,-6895 910x132] id=4:1659
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "HorizontalBorder" [-590,-6895 840x132] id=4:1660
+            layout=VERTICAL gap=9 pad=27/0/51.40999984741211/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 6" [-590,-6868 840x23] id=4:1661
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "A human reviews it, 24 to 48 hours" [-590,-6868 840x22] id=4:1662
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "A human reviews it, 24 to 48 hours"
+          - FRAME "Container" [-590,-6836 840x21] id=4:1663
+              layout=VERTICAL
+            - TEXT "We check for fit, quality over quantity, and reply with next steps. Build spots each month are limited by real capacity." [-590,-6836 840x21] id=4:1664
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "We check for fit, quality over quantity, and reply with next steps. Build spots each month are limited by real capacity."
+          - FRAME "Background+Border" [-660,-6867 38x38] id=4:1665
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(10,10,10)
+              STROKE SOLID rgb(255,98,31) w=1
+            - TEXT "2" [-646,-6858 10x19] id=4:1666
+                fills: SOLID rgb(255,98,31)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "2"
+      - FRAME "Margin" [-660,-6763 910x132] id=4:1667
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "HorizontalBorder" [-590,-6763 840x132] id=4:1668
+            layout=VERTICAL gap=9 pad=27/0/51.40999984741211/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 6" [-590,-6736 840x23] id=4:1669
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "Acceptance, and the care plan starts" [-590,-6736 840x22] id=4:1670
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "Acceptance, and the care plan starts"
+          - FRAME "Container" [-590,-6704 840x21] id=4:1671
+              layout=VERTICAL
+            - TEXT "The plan begins after you are accepted, before we start building, the same way any hosting and support arrangement would." [-590,-6704 840x21] id=4:1672
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "The plan begins after you are accepted, before we start building, the same way any hosting and support arrangement would."
+          - FRAME "Background+Border" [-660,-6735 38x38] id=4:1673
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(10,10,10)
+              STROKE SOLID rgb(255,98,31) w=1
+            - TEXT "3" [-646,-6726 10x19] id=4:1674
+                fills: SOLID rgb(255,98,31)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "3"
+      - FRAME "Margin" [-660,-6631 910x132] id=4:1675
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "HorizontalBorder" [-590,-6631 840x132] id=4:1676
+            layout=VERTICAL gap=9 pad=27/0/51.40999984741211/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 6" [-590,-6604 840x23] id=4:1677
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "Your content kit arrives" [-590,-6604 840x22] id=4:1678
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "Your content kit arrives"
+          - FRAME "Container" [-590,-6572 840x21] id=4:1679
+              layout=VERTICAL
+            - TEXT "Exactly what to send, with examples and short guidance. Most website delays are content delays, so we make this part simple." [-590,-6572 840x21] id=4:1680
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "Exactly what to send, with examples and short guidance. Most website delays are content delays, so we make this part simple."
+          - FRAME "Background+Border" [-660,-6603 38x38] id=4:1681
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(10,10,10)
+              STROKE SOLID rgb(255,98,31) w=1
+            - TEXT "4" [-646,-6594 10x19] id=4:1682
+                fills: SOLID rgb(255,98,31)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "4"
+      - FRAME "Margin" [-660,-6499 910x132] id=4:1683
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "HorizontalBorder" [-590,-6499 840x132] id=4:1684
+            layout=VERTICAL gap=9 pad=27/0/51.40999984741211/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 6" [-590,-6472 840x23] id=4:1685
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "We design and build" [-590,-6472 840x22] id=4:1686
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "We design and build"
+          - FRAME "Container" [-590,-6440 840x21] id=4:1687
+              layout=VERTICAL
+            - TEXT "Your page is professionally designed and built for you, with one revision round to get the details right." [-590,-6440 840x21] id=4:1688
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "Your page is professionally designed and built for you, with one revision round to get the details right."
+          - FRAME "Background+Border" [-660,-6471 38x38] id=4:1689
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(10,10,10)
+              STROKE SOLID rgb(255,98,31) w=1
+            - TEXT "5" [-646,-6462 10x19] id=4:1690
+                fills: SOLID rgb(255,98,31)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "5"
+      - FRAME "Margin" [-660,-6367 910x132] id=4:1691
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "HorizontalBorder" [-590,-6367 840x132] id=4:1692
+            layout=VERTICAL gap=9 pad=27/0/51.40999984741211/0
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 6" [-590,-6340 840x23] id=4:1693
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "Live in one to two weeks after your content" [-590,-6340 840x22] id=4:1694
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "Live in one to two weeks after your content"
+          - FRAME "Container" [-590,-6308 840x21] id=4:1695
+              layout=VERTICAL
+            - TEXT "You get handover, edit guidance, and launch support. You can change the site yourself from day one." [-590,-6308 840x21] id=4:1696
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "You get handover, edit guidance, and launch support. You can change the site yourself from day one."
+          - FRAME "Background+Border" [-660,-6339 38x38] id=4:1697
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(10,10,10)
+              STROKE SOLID rgb(255,98,31) w=1
+            - TEXT "6" [-646,-6330 10x19] id=4:1698
+                fills: SOLID rgb(255,98,31)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "6"
+      - FRAME "Margin" [-660,-6235 910x132] id=4:1699
+          layout=VERTICAL pad=0/0/0/70
+        - FRAME "Background+HorizontalBorder" [-590,-6235 840x132] id=4:1700
+            layout=VERTICAL gap=9 pad=27/0/51.40999984741211/0
+            fills: GRADIENT_LINEAR 0%:rgb(15,20,18) 60%:rgba(25,25,25,0.6)
+            STROKE SOLID rgb(63,174,126) w=0
+          - FRAME "Heading 6" [-590,-6208 840x23] id=4:1701
+              layout=VERTICAL pad=0/0/0.5899999737739563/0
+            - TEXT "Thirty days to change your mind" [-590,-6208 840x22] id=4:1702
+                fills: SOLID rgb(255,255,255)
+                font=Onest 400 18/21.600 tracking=0.00 align=LEFT
+                text: "Thirty days to change your mind"
+          - FRAME "Container" [-590,-6176 840x21] id=4:1703
+              layout=VERTICAL
+            - TEXT "Cancel within the first 30 days and your care plan payments are refunded. We would rather you stay because it works." [-590,-6176 840x21] id=4:1704
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/21 tracking=0.00 align=LEFT
+                text: "Cancel within the first 30 days and your care plan payments are refunded. We would rather you stay because it works."
+          - FRAME "Overlay+Border" [-660,-6207 38x38] id=4:1705
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=9/0/10/0 radius=19
+              fills: SOLID rgb(63,174,126)
+              STROKE SOLID rgb(63,174,126) w=1
+            - TEXT "7" [-646,-6198 9x19] id=4:1706
+                fills: SOLID rgb(63,174,126)
+                font=Neue Montreal 500 16/19.200 tracking=0.00 align=CENTER
+                text: "7"

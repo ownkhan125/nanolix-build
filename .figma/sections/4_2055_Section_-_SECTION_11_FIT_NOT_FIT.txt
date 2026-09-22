@@ -1,0 +1,195 @@
+- FRAME "Section - SECTION 11 — FIT / NOT FIT" [-1030,-1558 1280x742] id=4:2055
+    layout=VERTICAL gap=49.9900016784668 pad=50.0099983215332/0/0/0
+  - FRAME "Container" [-1030,-1508 860x137] id=4:2056
+      layout=VERTICAL gap=19.475000381469727
+    - FRAME "Container" [-1030,-1508 860x18] id=4:2057
+        layout=HORIZONTAL counter=CENTER
+      - FRAME "Margin" [-1030,-1501 48x3] id=4:2058
+          layout=VERTICAL pad=0/8/0/0
+        - RECTANGLE "Overlay" [-1030,-1501 40x3] id=4:2059
+            radius=10
+            fills: SOLID rgb(255,255,255)
+      - FRAME "Container" [-982,-1508 17x18] id=4:2060
+          layout=VERTICAL
+        - TEXT "Fit" [-982,-1508 17x18] id=4:2061
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+            text: "Fit"
+    - FRAME "Heading 2" [-1030,-1471 860x100] id=4:2062
+        layout=VERTICAL
+      - TEXT "This works best when the project needs clarity, not chaos." [-1030,-1471 769x100] id=4:2063
+          fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+          font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+          text: "This works best when the project needs\\nclarity, not chaos."
+  - FRAME "Border" [-1030,-1321 1280x505] id=4:2064
+      layout=GRID
+      STROKE SOLID rgb(255,255,255) w=1
+    - FRAME "VerticalBorder" [-1030,-1320 800x507] id=4:2065
+        layout=VERTICAL gap=18 pad=36/36/132/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Heading 5" [-1030,-1284 763x27] id=4:2066
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "This is for you if" [-1030,-1284 763x26] id=4:2067
+            fills: SOLID rgb(255,255,255)
+            font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+            text: "This is for you if"
+      - FRAME "Container" [-1030,-1239 763x294] id=4:2068
+          layout=VERTICAL
+        - FRAME "Paragraph" [-1030,-1239 763x42] id=4:2069
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-1230 14x24] id=4:2070
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "Your business looks great in person and invisible online." [-1004,-1230 413x24] id=4:2071
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "Your business looks great in person and invisible online."
+        - FRAME "Paragraph" [-1030,-1197 763x42] id=4:2072
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-1188 14x24] id=4:2073
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "You are launching something and need a credible first impression fast." [-1004,-1188 521x24] id=4:2074
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You are launching something and need a credible first impression fast."
+        - FRAME "Paragraph" [-1030,-1155 763x42] id=4:2075
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-1146 14x24] id=4:2076
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "Customers are comparing you to competitors with cleaner sites." [-1004,-1146 479x24] id=4:2077
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "Customers are comparing you to competitors with cleaner sites."
+        - FRAME "Paragraph" [-1030,-1113 763x42] id=4:2078
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-1104 14x24] id=4:2079
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "Your inquiries currently land in a social profile or a link page." [-1004,-1104 444x24] id=4:2080
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "Your inquiries currently land in a social profile or a link page."
+        - FRAME "Paragraph" [-1030,-1071 763x42] id=4:2081
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-1062 14x24] id=4:2082
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "You can share content and assets and follow a simple guided process." [-1004,-1062 523x24] id=4:2083
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You can share content and assets and follow a simple guided process."
+        - FRAME "Paragraph" [-1030,-1029 763x42] id=4:2084
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-1020 14x24] id=4:2085
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "You would rather professionals build it than fight a website builder." [-1004,-1020 497x24] id=4:2086
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You would rather professionals build it than fight a website builder."
+        - FRAME "Paragraph" [-1030,-987 763x42] id=4:2087
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "✦" [-1030,-978 14x24] id=4:2088
+              fills: SOLID rgb(63,174,126)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "✦"
+          - TEXT "You may want brand, motion, or custom work later, and need a start now." [-1004,-978 547x24] id=4:2089
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You may want brand, motion, or custom work later, and need a start now."
+    - FRAME "Container" [-230,-1320 480x507] id=4:2090
+        layout=VERTICAL gap=18 pad=36/0/36/36
+      - FRAME "Heading 5" [-194,-1284 444x27] id=4:2091
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "This is not for you if:" [-194,-1284 444x26] id=4:2092
+            fills: SOLID rgb(255,255,255)
+            font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+            text: "This is not for you if:"
+      - FRAME "Container" [-194,-1239 444x390] id=4:2093
+          layout=VERTICAL
+        - FRAME "Container" [-194,-1239 444x66] id=4:2094
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-1230 15x24] id=4:2095
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - FRAME "Container" [-167,-1230 446x48] id=4:2096
+              layout=VERTICAL
+            - TEXT "You expect unlimited custom design and development at no cost." [-167,-1230 446x48] id=4:2097
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/24 tracking=0.00 align=LEFT
+                text: "You expect unlimited custom design and development at no\\ncost."
+        - FRAME "Paragraph" [-194,-1173 444x42] id=4:2098
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-1164 15x24] id=4:2099
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - TEXT "You need a complex store or web app for free." [-167,-1164 345x24] id=4:2100
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You need a complex store or web app for free."
+        - FRAME "Paragraph" [-194,-1131 444x42] id=4:2101
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-1122 15x24] id=4:2102
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - TEXT "You need it live in 24 hours with no input from you." [-167,-1122 378x24] id=4:2103
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You need it live in 24 hours with no input from you."
+        - FRAME "Container" [-194,-1089 444x66] id=4:2104
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-1080 15x24] id=4:2105
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - FRAME "Container" [-167,-1080 439x48] id=4:2106
+              layout=VERTICAL pad=0/68.91000366210938/0/0
+            - TEXT "You want guaranteed leads, sales, or number-one rankings." [-167,-1080 370x48] id=4:2107
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/24 tracking=0.00 align=LEFT
+                text: "You want guaranteed leads, sales, or number-one\\nrankings."
+        - FRAME "Paragraph" [-194,-1023 444x42] id=4:2108
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-1014 15x24] id=4:2109
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - TEXT "You want another site copied exactly." [-167,-1014 282x24] id=4:2110
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "You want another site copied exactly."
+        - FRAME "Container" [-194,-981 444x66] id=4:2111
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-972 15x24] id=4:2112
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - FRAME "Container" [-167,-972 449x48] id=4:2113
+              layout=VERTICAL pad=0/44.02000045776367/0/0
+            - TEXT "You are collecting free things with no intention of ever investing." [-167,-972 405x48] id=4:2114
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/24 tracking=0.00 align=LEFT
+                text: "You are collecting free things with no intention of ever\\ninvesting."
+        - FRAME "Container" [-194,-915 444x66] id=4:2115
+            layout=HORIZONTAL gap=12 pad=9/0/9/0
+          - TEXT "●" [-194,-906 15x24] id=4:2116
+              fills: SOLID rgb(122,122,122)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "●"
+          - FRAME "Container" [-167,-906 444x48] id=4:2117
+              layout=VERTICAL pad=0/76.91999816894531/0/0
+            - TEXT "You already have a strong site and just want free maintenance." [-167,-906 367x48] id=4:2118
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/24 tracking=0.00 align=LEFT
+                text: "You already have a strong site and just want free\\nmaintenance."

@@ -1,0 +1,82 @@
+- FRAME "Section - HERO" [-1350,-9962 1920x771] id=4:1440
+    layout=HORIZONTAL primary=CENTER counter=CENTER pad=184.80999755859375/20/60.810001373291016/20
+  - RECTANGLE "Gradient" [-800,-10142 820x730] id=4:1441
+      fills: GRADIENT_RADIAL 0%:rgba(255,98,31,0.25) 70%:rgba(255,98,31,0)
+  - FRAME "Mask Group" [-940,-9962 1100x620] id=4:1442
+    - RECTANGLE "Mask" [-940,-9962 1100x620] id=4:1443
+        fills: GRADIENT_RADIAL 0%:rgb(0,0,0) 100%:rgba(0,0,0,0)
+    - RECTANGLE "Gradient" [-940,-9962 1100x620] id=4:1444
+        fills: GRADIENT_LINEAR 2%:rgba(255,255,255,0.05) 2%:rgba(255,255,255,0) | GRADIENT_LINEAR 2%:rgba(255,255,255,0.05) 2%:rgba(255,255,255,0)
+  - FRAME "Container" [-1030,-9777 1280x525] id=4:1445
+      layout=VERTICAL pad=0/150/0/150
+    - FRAME "Container" [-880,-9777 980x525] id=4:1446
+        layout=VERTICAL counter=CENTER gap=18
+      - FRAME "Container" [-880,-9777 980x45] id=4:1447
+          layout=HORIZONTAL primary=CENTER
+        - INSTANCE "Component 1" [-554,-9777 327x45] id=4:1448
+            layout=HORIZONTAL counter=CENTER gap=8 pad=12/16/13/16 radius=100
+            fills: SOLID rgb(25,25,25)
+          - RECTANGLE "Background" [-538,-9759 8x8] id=I4:1448;4:6
+              radius=4
+              fills: SOLID rgb(255,98,31)
+          - TEXT "Text" [-522,-9765 279x20] id=I4:1448;4:7
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 16/20.399 tracking=0.00 align=CENTER
+              text: "The Nanolix Website Launch Program"
+      - FRAME "Heading 1" [-880,-9714 980x166] id=4:1449
+          layout=VERTICAL counter=CENTER pad=5.25/0/0.75/0
+        - TEXT "A professional website, built for you." [-833,-9709 885x160] id=4:1450
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 400 75/79.5 tracking=0.00 align=CENTER
+            text: "A professional website, built\\nfor you."
+      - FRAME "Container" [-800,-9530 820x139] id=4:1451
+          layout=VERTICAL gap=15.170000076293945 pad=5.175000190734863/0/0/0
+        - FRAME "Container" [-800,-9525 820x60] id=4:1452
+            layout=VERTICAL counter=CENTER pad=0/0/0.5149999856948853/0
+          - TEXT "No upfront design fee. Our team designs and builds your website page, helps you launch it, and gives you a clear handoff so the site is yours to keep." [-810,-9525 839x59] id=4:1453
+              fills: SOLID rgb(220,220,220)
+              font=Quicksand 400 18/29.340 tracking=0.00 align=CENTER
+              text: "No upfront design fee. Our team designs and builds your website page, helps you launch it, and gives\\nyou a clear handoff so the site is yours to keep."
+        - FRAME "Container" [-800,-9450 820x60] id=4:1454
+            layout=VERTICAL counter=CENTER pad=0/0/0.5199999809265137/0
+          - TEXT "The required care plan starts at $39 to $59 a month, and billing begins only after your application is accepted." [-806,-9450 832x59] id=4:1455
+              fills: SOLID rgb(179,179,179)
+              font=Quicksand 400 18/29.340 tracking=0.00 align=CENTER
+              text: "The required care plan starts at $39 to $59 a month, and billing begins only after your application is\\naccepted."
+      - FRAME "Container" [-880,-9373 980x67] id=4:1456
+          layout=HORIZONTAL primary=CENTER counter=CENTER gap=10 pad=12/0/0/0
+        - INSTANCE "Component 2" [-622,-9361 214x55] id=4:1457
+            layout=HORIZONTAL primary=CENTER counter=CENTER pad=17/40/17/40 radius=40
+            fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+          - RECTANGLE "Gradient+Blur" [-827,-9413 642x191] id=I4:1457;4:13
+              fills: GRADIENT_RADIAL 0%:rgb(255,208,122) 50%:rgba(255,208,122,0)
+          - FRAME "Container" [-582,-9344 134x21] id=I4:1457;4:14
+              layout=VERTICAL counter=CENTER pad=0/0/1/0
+            - TEXT "Text" [-582,-9344 134x20] id=I4:1457;4:15
+                fills: SOLID rgb(255,255,255)
+                font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                text: "Apply in 2 minutes"
+        - FRAME "Link" [-398,-9360 239x53] id=4:1458
+            layout=HORIZONTAL primary=CENTER counter=CENTER pad=15/40/15/40 radius=40
+            fills: GRADIENT_LINEAR 12%:rgba(18,18,18,0.4) 48%:rgba(39,39,39,0.4) 85%:rgba(18,18,18,0.4)
+            STROKE SOLID rgb(83,83,83) w=1
+          - FRAME "Container" [-357,-9344 157x21] id=4:1459
+              layout=VERTICAL counter=CENTER pad=0/0/1/0
+            - TEXT "Book a 15-Minute Call" [-357,-9344 157x20] id=4:1460
+                fills: SOLID rgb(255,255,255)
+                font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                text: "Book a 15-Minute Call"
+      - FRAME "Container" [-730,-9288 680x36] id=4:1461
+          layout=HORIZONTAL primary=CENTER counter=CENTER gap=34.11000061035156 pad=0/25.110000610351562/0/0
+        - FRAME "Overlay+Border" [-748,-9280 20x20] id=4:1462
+            layout=VERTICAL primary=CENTER counter=CENTER radius=10
+            fills: SOLID rgb(63,174,126)
+            STROKE SOLID rgb(63,174,126) w=1
+          - TEXT "✓" [-745,-9277 13x15] id=4:1463
+              fills: SOLID rgb(63,174,126)
+              font=Onest 700 12/15.299 tracking=0.00 align=CENTER
+              text: "✓"
+        - TEXT "A real person reviews every application within 24-48hrs. No card, and no payment before you are accepted." [-694,-9288 637x36] id=4:1464
+            fills: SOLID rgb(155,155,155)
+            font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+            text: "A real person reviews every application within 24-48hrs. No card, and no payment before you are\\naccepted."

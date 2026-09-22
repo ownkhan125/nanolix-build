@@ -1,0 +1,128 @@
+- FRAME "Section - SECTION 7 — WHERE THE MONEY GOES" [-1030,-4937 1280x554] id=4:1848
+    layout=VERTICAL gap=50 pad=50/0/0/0
+  - FRAME "Container" [-1030,-4887 800x137] id=4:1849
+      layout=VERTICAL gap=19.475000381469727
+    - FRAME "Container" [-1030,-4887 800x18] id=4:1850
+        layout=HORIZONTAL counter=CENTER
+      - FRAME "Margin" [-1030,-4879 48x3] id=4:1851
+          layout=VERTICAL pad=0/8/0/0
+        - RECTANGLE "Overlay" [-1030,-4879 40x3] id=4:1852
+            radius=10
+            fills: SOLID rgb(255,255,255)
+      - FRAME "Container" [-982,-4887 153x18] id=4:1853
+          layout=VERTICAL
+        - TEXT "Where the money goes" [-982,-4887 153x18] id=4:1854
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+            text: "Where the money goes"
+    - FRAME "Heading 2" [-1030,-4849 800x100] id=4:1855
+        layout=VERTICAL
+      - TEXT "We would rather show you our work than pitch you." [-1030,-4849 690x100] id=4:1856
+          fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+          font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+          text: "We would rather show you our work\\nthan pitch you."
+  - FRAME "Border" [-1030,-4699 1280x317] id=4:1857
+      layout=GRID
+      STROKE SOLID rgb(255,255,255) w=1
+    - FRAME "VerticalBorder" [-1030,-4698 576x345] id=4:1858
+        layout=VERTICAL pad=36/32/84/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Overlay" [-1030,-4662 48x48] id=4:1859
+          layout=HORIZONTAL primary=CENTER counter=CENTER radius=12
+          fills: SOLID rgb(255,98,31)
+        - INSTANCE "Component 3" [-1017,-4649 22x22] id=4:1860
+          - VECTOR "Vector" [-1014,-4647 17x17] id=I4:1860;4:55
+              STROKE SOLID rgb(255,98,31) w=1.8333333730697632
+          - VECTOR "Vector" [-1011,-4645 13x8] id=I4:1860;4:56
+              STROKE SOLID rgb(255,98,31) w=1.8333333730697632
+      - FRAME "Margin" [-1030,-4614 543x36] id=4:1861
+          layout=VERTICAL pad=18/0/0/0
+        - FRAME "Container" [-1030,-4596 543x18] id=4:1862
+            layout=VERTICAL
+          - TEXT "Card 1 — The Model" [-1030,-4596 543x18] id=4:1863
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Card 1 — The Model"
+      - FRAME "Heading 5:margin" [-1030,-4578 543x33] id=4:1864
+          layout=VERTICAL pad=6/0/0/0
+        - FRAME "Heading 5" [-1030,-4572 543x27] id=4:1865
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Why do we build with no upfront design fee?" [-1030,-4572 420x26] id=4:1866
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Why do we build with no upfront design fee?"
+      - FRAME "Margin" [-1030,-4545 543x108] id=4:1867
+          layout=VERTICAL pad=12/0/0/0
+        - FRAME "Container" [-1030,-4533 543x96] id=4:1868
+            layout=VERTICAL
+          - TEXT "We build a limited number of sites each month with no upfront design fee. It lets us meet good businesses early. Some later hire us for bigger work. There is never an obligation." [-1030,-4533 543x96] id=4:1869
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "We build a limited number of sites each month with no upfront design fee. It\\nlets us meet good businesses early. Some later hire us for bigger work.\\nThere is never an obligation."
+    - FRAME "VerticalBorder" [-454,-4698 352x369] id=4:1870
+        layout=VERTICAL pad=36/32/36/32
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Overlay" [-422,-4662 48x48] id=4:1871
+          layout=HORIZONTAL primary=CENTER counter=CENTER radius=12
+          fills: SOLID rgb(255,98,31)
+        - INSTANCE "Component 3" [-409,-4649 22x22] id=4:1872
+          - VECTOR "Vector" [-398,-4648 0x20] id=I4:1872;4:59
+              STROKE SOLID rgb(255,98,31) w=1.8333333730697632
+          - VECTOR "Vector" [-404,-4645 11x13] id=I4:1872;4:60
+              STROKE SOLID rgb(255,98,31) w=1.8333333730697632
+      - FRAME "Margin" [-422,-4614 287x36] id=4:1873
+          layout=VERTICAL pad=18/0/0/0
+        - FRAME "Container" [-422,-4596 287x18] id=4:1874
+            layout=VERTICAL
+          - TEXT "Card 2 — The Money" [-422,-4596 287x18] id=4:1875
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Card 2 — The Money"
+      - FRAME "Heading 5:margin" [-422,-4578 287x33] id=4:1876
+          layout=VERTICAL pad=6/0/0/0
+        - FRAME "Heading 5" [-422,-4572 287x27] id=4:1877
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Three honest ways:" [-422,-4572 185x26] id=4:1878
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Three honest ways:"
+      - FRAME "Margin" [-422,-4545 287x180] id=4:1879
+          layout=VERTICAL pad=12/0/0/0
+        - FRAME "Container" [-422,-4533 287x168] id=4:1880
+            layout=VERTICAL
+          - TEXT "The monthly care plan, optional upgrades you choose, and small referral commissions on tools we would recommend anyway. All disclosed at the bottom of this page." [-422,-4533 287x168] id=4:1881
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "The monthly care plan, optional\\nupgrades you choose, and small referral\\ncommissions on tools we would\\nrecommend anyway. All disclosed at the\\nbottom of this page."
+    - FRAME "Container" [-102,-4698 352x369] id=4:1882
+        layout=VERTICAL pad=36/0/60/32
+      - FRAME "Overlay" [-70,-4662 48x48] id=4:1883
+          layout=HORIZONTAL primary=CENTER counter=CENTER radius=12
+          fills: SOLID rgb(255,98,31)
+        - INSTANCE "Component 3" [-57,-4649 22x22] id=4:1884
+          - VECTOR "Vector" [-53,-4647 15x18] id=I4:1884;4:63
+              STROKE SOLID rgb(255,98,31) w=1.8333333730697632
+      - FRAME "Margin" [-70,-4614 320x36] id=4:1885
+          layout=VERTICAL pad=18/0/0/0
+        - FRAME "Container" [-70,-4596 320x18] id=4:1886
+            layout=VERTICAL
+          - TEXT "Card 3 — The Commitment" [-70,-4596 320x18] id=4:1887
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Card 3 — The Commitment"
+      - FRAME "Heading 5:margin" [-70,-4578 320x33] id=4:1888
+          layout=VERTICAL pad=6/0/0/0
+        - FRAME "Heading 5" [-70,-4572 320x27] id=4:1889
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "The care plan" [-70,-4572 126x26] id=4:1890
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "The care plan"
+      - FRAME "Margin" [-70,-4545 320x156] id=4:1891
+          layout=VERTICAL pad=12/0/0/0
+        - FRAME "Container" [-70,-4533 320x144] id=4:1892
+            layout=VERTICAL
+          - TEXT "The care plan is required for the minimum term. You own the site, and the plan covers hosting and upkeep. Everything beyond the build scope is optional and clearly priced." [-70,-4533 320x144] id=4:1893
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/24 tracking=0.00 align=LEFT
+              text: "The care plan is required for the minimum\\nterm. You own the site, and the plan covers\\nhosting and upkeep. Everything beyond the\\nbuild scope is optional and clearly priced."

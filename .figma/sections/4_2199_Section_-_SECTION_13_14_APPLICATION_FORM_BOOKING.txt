@@ -1,0 +1,195 @@
+- FRAME "Section - SECTION 13 + 14 — APPLICATION FORM & BOOKING" [-1030,14 1280x834] id=4:2199
+    layout=VERTICAL gap=50 pad=50/0/0/0
+  - FRAME "Container" [-1030,64 780x137] id=4:2200
+      layout=VERTICAL gap=19.479999542236328
+    - FRAME "Container" [-1030,64 780x18] id=4:2201
+        layout=HORIZONTAL counter=CENTER
+      - FRAME "Margin" [-1030,72 48x3] id=4:2202
+          layout=VERTICAL pad=0/8/0/0
+        - RECTANGLE "Overlay" [-1030,72 40x3] id=4:2203
+            radius=10
+            fills: SOLID rgb(255,255,255)
+      - FRAME "Container" [-982,64 38x18] id=4:2204
+          layout=VERTICAL
+        - TEXT "Apply" [-982,64 38x18] id=4:2205
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+            text: "Apply"
+    - FRAME "Heading 2" [-1030,102 780x100] id=4:2206
+        layout=VERTICAL
+      - TEXT "Apply for the Nanolix Free Website Program" [-1030,102 669x100] id=4:2207
+          fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+          font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+          text: "Apply for the Nanolix Free Website\\nProgram"
+  - FRAME "Container" [-1030,252 1280x596] id=4:2208
+      layout=HORIZONTAL primary=CENTER gap=28
+    - FRAME "form" [-1030,252 783x590] id=4:2209
+        layout=VERTICAL gap=26 pad=38/38/38/38 radius=20
+        fills: SOLID rgb(11,11,11)
+        STROKE SOLID rgb(255,255,255) w=1
+      - FRAME "Container" [-991,291 705x6] id=4:2210
+          layout=HORIZONTAL primary=CENTER gap=10
+        - FRAME "Label" [-991,291 228x6] id=4:2211
+            layout=VERTICAL primary=CENTER radius=999
+            fills: SOLID rgb(31,31,31)
+          - RECTANGLE "Gradient" [-991,291 228x6] id=4:2212
+              radius=999
+              fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+        - FRAME "Label" [-753,291 228x6] id=4:2213
+            radius=999
+            fills: SOLID rgb(31,31,31)
+        - FRAME "Label" [-515,291 228x6] id=4:2214
+            radius=999
+            fills: SOLID rgb(31,31,31)
+      - FRAME "Step 1" [-991,323 705x480] id=4:2215
+          layout=VERTICAL gap=8
+        - FRAME "Heading 4" [-991,323 705x33] id=4:2216
+            layout=VERTICAL
+          - TEXT "Step 1: The quick part" [-991,323 278x33] id=4:2217
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "Step 1: The quick part"
+        - FRAME "Container" [-991,364 705x18] id=4:2218
+            layout=VERTICAL
+          - TEXT "Three fields. About sixty seconds." [-991,364 705x18] id=4:2219
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Three fields. About sixty seconds."
+        - FRAME "Container" [-991,390 705x89] id=4:2220
+            layout=VERTICAL gap=8 pad=16/0/0/0
+          - INSTANCE "Component 5" [-991,406 705x18] id=4:2221
+              layout=VERTICAL
+            - TEXT "Text" [-991,406 705x18] id=I4:2221;4:107
+                fills: SOLID rgb(179,179,179)
+                font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+                text: "Business name and website if you have one"
+          - FRAME "Input" [-991,432 705x47] id=4:2222
+              layout=VERTICAL pad=13/16/13/16 radius=12
+              fills: SOLID rgb(14,14,14)
+              STROKE SOLID rgb(255,255,255) w=1
+            - FRAME "Container" [-974,446 671x19] id=4:2223
+                layout=VERTICAL
+              - TEXT "Business name and website if you have one" [-974,446 671x19] id=4:2224
+                  fills: SOLID rgb(95,95,95)
+                  font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                  text: "Business name and website if you have one"
+        - FRAME "Container" [-991,487 705x81] id=4:2225
+            layout=VERTICAL gap=8 pad=8/0/0/0
+          - INSTANCE "Component 5" [-991,495 705x18] id=4:2226
+              layout=VERTICAL
+            - TEXT "Text" [-991,495 705x18] id=I4:2226;4:107
+                fills: SOLID rgb(179,179,179)
+                font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+                text: "Best email for our reply"
+          - FRAME "Input" [-991,521 705x47] id=4:2227
+              layout=VERTICAL pad=13/16/13/16 radius=12
+              fills: SOLID rgb(14,14,14)
+              STROKE SOLID rgb(255,255,255) w=1
+            - FRAME "Container" [-974,535 671x19] id=4:2228
+                layout=VERTICAL
+              - TEXT "Best email for our reply" [-974,535 671x19] id=4:2229
+                  fills: SOLID rgb(95,95,95)
+                  font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                  text: "Best email for our reply"
+        - FRAME "Container" [-991,576 705x136] id=4:2230
+            layout=VERTICAL gap=8 pad=8/0/16/0
+          - INSTANCE "Component 5" [-991,584 705x18] id=4:2231
+              layout=VERTICAL
+            - TEXT "Text" [-991,584 705x18] id=I4:2231;4:107
+                fills: SOLID rgb(179,179,179)
+                font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+                text: "What does your business do, in one sentence?"
+          - FRAME "Textarea" [-991,610 705x86] id=4:2232
+              layout=VERTICAL pad=13/16/52/16 radius=12
+              fills: SOLID rgb(14,14,14)
+              STROKE SOLID rgb(255,255,255) w=1
+            - FRAME "Container" [-974,624 671x19] id=4:2233
+                layout=VERTICAL
+              - TEXT "What does your business do, in one sentence?" [-974,624 671x19] id=4:2234
+                  fills: SOLID rgb(95,95,95)
+                  font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                  text: "What does your business do, in one sentence?"
+        - INSTANCE "Component 7" [-991,720 705x51] id=4:2235
+            layout=HORIZONTAL primary=CENTER counter=CENTER pad=15/40/15/40 radius=40
+            fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+          - RECTANGLE "Gradient+Blur" [-1696,672 2114x276] id=I4:2235;4:195
+              fills: GRADIENT_RADIAL 0%:rgb(255,208,122) 50%:rgba(255,208,122,0)
+          - FRAME "Container" [-730,735 182x21] id=I4:2235;4:196
+              layout=VERTICAL counter=CENTER pad=0/0/1/0
+            - TEXT "Text" [-730,735 182x20] id=I4:2235;4:197
+                fills: SOLID rgb(255,255,255)
+                font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                text: "Continue, one minute left"
+        - FRAME "Container" [-991,779 705x24] id=4:2236
+            layout=VERTICAL counter=CENTER pad=6/0/0/0
+          - TEXT "No payment is required at any step." [-756,785 235x18] id=4:2237
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+              text: "No payment is required at any step."
+    - FRAME "booking panel" [-220,252 470x596] id=4:2238
+        layout=VERTICAL gap=16 pad=32/32/32/32 radius=20
+        fills: SOLID rgb(25,25,25)
+        STROKE SOLID rgb(255,255,255) w=1
+      - FRAME "Container" [-187,285 404x260] id=4:2239
+          layout=VERTICAL gap=11.399999618530273
+        - FRAME "Container" [-187,285 404x18] id=4:2240
+            layout=HORIZONTAL counter=CENTER
+          - FRAME "Margin" [-187,292 48x3] id=4:2241
+              layout=VERTICAL pad=0/8/0/0
+            - RECTANGLE "Overlay" [-187,292 40x3] id=4:2242
+                radius=10
+                fills: SOLID rgb(255,255,255)
+          - FRAME "Container" [-139,285 53x18] id=4:2243
+              layout=VERTICAL
+            - TEXT "Booking" [-139,285 53x18] id=4:2244
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+                text: "Booking"
+        - FRAME "Heading 4" [-187,314 404x38] id=4:2245
+            layout=VERTICAL pad=4.599999904632568/0/0/0
+          - TEXT "Free 15-minute call" [-187,319 243x33] id=4:2246
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "Free 15-minute call"
+        - FRAME "Container" [-187,363 404x182] id=4:2247
+            layout=VERTICAL
+          - TEXT "We look at your current site, or wherever your presence lives now, you leave with the clearest next step, and we tell you honestly whether this is a fit. Anyone can book; build spots are confirmed after review." [-187,363 404x182] id=4:2248
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/25.920 tracking=0.00 align=LEFT
+              text: "We look at your current site, or wherever your presence\\nlives now, you leave with the clearest next step, and we\\ntell you honestly whether this is a fit. Anyone can book;\\nbuild spots are confirmed after review."
+      - FRAME "Background+Border" [-187,561 404x220] id=4:2249
+          layout=VERTICAL counter=CENTER gap=14 pad=34/24/34/24 radius=16
+          fills: SOLID rgb(11,11,11)
+          STROKE SOLID rgb(58,58,58) w=1
+        - INSTANCE "Component 3" [0,596 30x30] id=4:2250
+          - VECTOR "Vector" [4,601 23x23] id=I4:2250;4:73
+              STROKE SOLID rgb(255,98,31) w=2.125
+          - VECTOR "Vector" [20,598 0x5] id=I4:2250;4:74
+              STROKE SOLID rgb(255,98,31) w=2.125
+          - VECTOR "Vector" [10,598 0x5] id=I4:2250;4:75
+              STROKE SOLID rgb(255,98,31) w=2.125
+          - VECTOR "Vector" [4,608 23x0] id=I4:2250;4:76
+              STROKE SOLID rgb(255,98,31) w=2.125
+        - FRAME "Container" [-171,640 373x41] id=4:2251
+            layout=VERTICAL counter=CENTER pad=0/6.869999885559082/1/6.880000114440918
+          - TEXT "Prefer to talk first? Load the calendar and pick a time." [-164,640 359x40] id=4:2252
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 16/20.399 tracking=0.00 align=CENTER
+              text: "Prefer to talk first? Load the calendar and pick a\\ntime."
+        - INSTANCE "Component 8" [-101,695 232x51] id=4:2253
+            layout=HORIZONTAL primary=CENTER counter=CENTER pad=15/40/15/40 radius=40
+            fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+          - RECTANGLE "Gradient+Blur" [-325,647 696x186] id=I4:2253;4:203
+              fills: GRADIENT_RADIAL 0%:rgb(255,208,122) 50%:rgba(255,208,122,0)
+          - FRAME "Container" [-61,710 152x21] id=I4:2253;4:204
+              layout=VERTICAL counter=CENTER pad=0/0/1/0
+            - TEXT "Text" [-61,710 152x20] id=I4:2253;4:205
+                fills: SOLID rgb(255,255,255)
+                font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                text: "Show available times"
+      - FRAME "Container" [-187,797 404x18] id=4:2254
+          layout=VERTICAL counter=CENTER
+        - TEXT "Calendar not loading? Open it in a new tab." [-126,797 282x18] id=4:2255
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+            text: "Calendar not loading? Open it in a new tab."

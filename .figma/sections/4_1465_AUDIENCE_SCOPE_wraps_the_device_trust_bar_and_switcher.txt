@@ -1,0 +1,544 @@
+- FRAME "AUDIENCE SCOPE: wraps the device, trust bar and switcher" [-1350,-9111 1920x1863] id=4:1465
+    layout=VERTICAL gap=100 pad=50/320/0/320
+  - FRAME "Section - SECTION 2 — BEFORE / AFTER" [-1030,-9061 1280x580] id=4:1466
+    - FRAME "Container" [-1030,-9061 353x248] id=4:1467
+        layout=VERTICAL gap=19.5
+      - FRAME "Container" [-1030,-9061 353x18] id=4:1468
+          layout=HORIZONTAL counter=CENTER
+        - FRAME "Margin" [-1030,-9054 48x3] id=4:1469
+            layout=VERTICAL pad=0/8/0/0
+          - RECTANGLE "Overlay" [-1030,-9054 40x3] id=4:1470
+              radius=10
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-982,-9061 92x18] id=4:1471
+            layout=VERTICAL
+          - TEXT "Before / After" [-982,-9061 92x18] id=4:1472
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Before / After"
+      - FRAME "Heading 2" [-1030,-9024 353x150] id=4:1473
+          layout=VERTICAL
+        - TEXT "See the difference a clear website makes." [-1030,-9024 337x150] id=4:1474
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+            text: "See the\\ndifference a clear\\nwebsite makes."
+      - FRAME "Container" [-1030,-8854 353x41] id=4:1475
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Drag to compare a rough DIY page with a polished Nanolix-built website page." [-1030,-8854 353x40] id=4:1476
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "Drag to compare a rough DIY page with a\\npolished Nanolix-built website page."
+    - FRAME "Background+Border+Shadow" [-613,-9061 863x518] id=4:1477
+        layout=VERTICAL radius=20
+        fills: SOLID rgb(12,12,12)
+        STROKE SOLID rgb(155,155,155) w=1
+      - FRAME "Background+HorizontalBorder" [-612,-9060 861x56] id=4:1478
+          layout=HORIZONTAL counter=CENTER gap=8 pad=12/16/12/16
+          fills: SOLID rgb(18,18,18)
+          STROKE SOLID rgb(255,255,255) w=0
+        - FRAME "Container" [-596,-9038 42x10] id=4:1479
+            layout=HORIZONTAL gap=6
+          - RECTANGLE "Background" [-596,-9038 10x10] id=4:1480
+              radius=5
+              fills: SOLID rgb(255,95,87)
+          - RECTANGLE "Background" [-580,-9038 10x10] id=4:1481
+              radius=5
+              fills: SOLID rgb(254,188,46)
+          - RECTANGLE "Background" [-564,-9038 10x10] id=4:1482
+              radius=5
+              fills: SOLID rgb(40,200,64)
+        - FRAME "address bar swaps with the selected business type" [-546,-9048 779x31] id=4:1483
+            layout=VERTICAL counter=CENTER pad=6/14/6/14 radius=999
+            fills: SOLID rgb(28,28,28)
+            STROKE SOLID rgb(255,255,255) w=1
+          - TEXT "marastudio.com" [-205,-9041 97x17] id=4:1484
+              fills: SOLID rgb(141,141,141)
+              font=Onest 400 13/16.574 tracking=0.00 align=CENTER
+              text: "marastudio.com"
+      - FRAME "Container" [-612,-9004 861x460] id=4:1485
+        - FRAME "AFTER" [-612,-9004 861x460] id=4:1486
+            layout=VERTICAL pad=58/24/26/24
+            fills: SOLID rgb(11,11,11) | GRADIENT_RADIAL 0%:rgba(255,98,31,0.08) 70%:rgba(255,98,31,0)
+          - FRAME "Container" [-588,-8946 813x345] id=4:1487
+              layout=VERTICAL gap=10 pad=0/0.009999999776482582/0/374.1400146484375
+            - FRAME "HorizontalBorder" [-214,-8946 439x46] id=4:1488
+                layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=15.300000190734863 pad=0/0/16/0
+                STROKE SOLID rgb(255,255,255) w=0
+              - FRAME "Container" [-214,-8941 120x18] id=4:1489
+                  layout=VERTICAL
+                - TEXT "MARA STUDIO" [-214,-8941 120x18] id=4:1490
+                    fills: SOLID rgb(255,255,255)
+                    font=Neue Montreal 500 15/18 tracking=2.10 align=LEFT
+                    text: "MARA STUDIO"
+              - FRAME "Container" [-85,-8939 222x15] id=4:1491
+                  layout=HORIZONTAL gap=16
+                - FRAME "Container" [-85,-8939 33x15] id=4:1492
+                    layout=VERTICAL
+                  - TEXT "Home" [-85,-8939 33x15] id=4:1493
+                      fills: SOLID rgb(141,141,141)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "Home"
+                - FRAME "Container" [-36,-8939 56x15] id=4:1494
+                    layout=VERTICAL
+                  - TEXT "Collection" [-36,-8939 56x15] id=4:1495
+                      fills: SOLID rgb(141,141,141)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "Collection"
+                - FRAME "Container" [36,-8939 32x15] id=4:1496
+                    layout=VERTICAL
+                  - TEXT "Story" [36,-8939 32x15] id=4:1497
+                      fills: SOLID rgb(141,141,141)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "Story"
+                - FRAME "Container" [84,-8939 53x15] id=4:1498
+                    layout=VERTICAL
+                  - TEXT "Stockists" [84,-8939 53x15] id=4:1499
+                      fills: SOLID rgb(141,141,141)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "Stockists"
+              - FRAME "Background" [147,-8946 78x29] id=4:1500
+                  layout=HORIZONTAL pad=7/16/7/16 radius=40
+                  fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+                - TEXT "Contact" [163,-8939 46x15] id=4:1501
+                    fills: SOLID rgb(255,255,255)
+                    font=Onest 500 12/15.299 tracking=0.00 align=LEFT
+                    text: "Contact"
+            - FRAME "Heading 3" [-214,-8890 318x78] id=4:1502
+                layout=VERTICAL pad=16.954999923706055/0/0.8550000190734863/0
+              - TEXT "The collection, presented properly." [-214,-8873 285x60] id=4:1503
+                  fills: SOLID rgb(255,255,255)
+                  font=Neue Montreal 500 26/29.899 tracking=0.00 align=LEFT
+                  text: "The collection, presented\\nproperly."
+            - FRAME "Container" [-214,-8802 358x50] id=4:1504
+                layout=VERTICAL pad=0/0/8/0
+              - TEXT "The lookbook lives on a feed you rent. The brand should live somewhere you own." [-214,-8802 365x42] id=4:1505
+                  fills: SOLID rgb(154,154,154)
+                  font=Onest 400 14/21 tracking=0.00 align=LEFT
+                  text: "The lookbook lives on a feed you rent. The brand should\\nlive somewhere you own."
+            - FRAME "Background" [-214,-8742 94x35] id=4:1506
+                layout=HORIZONTAL pad=9/22/9/22 radius=40
+                fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+              - TEXT "Contact" [-192,-8733 50x17] id=4:1507
+                  fills: SOLID rgb(255,255,255)
+                  font=Onest 500 13/16.574 tracking=0.00 align=LEFT
+                  text: "Contact"
+            - FRAME "Container" [-214,-8697 439x96] id=4:1508
+                layout=HORIZONTAL primary=CENTER gap=10 pad=16/0/0/0
+              - FRAME "Overlay+Border" [-214,-8681 140x80] id=4:1509
+                  layout=HORIZONTAL gap=7.989999771118164 pad=14/14/14/14 radius=12
+                  fills: SOLID rgb(25,25,25)
+                  STROKE SOLID rgb(255,255,255) w=1
+                - INSTANCE "Component 3" [-199,-8666 8x14] id=4:1510
+                  - VECTOR "Vector" [-198,-8661 5x4] id=I4:1510;4:33
+                      STROKE SOLID rgb(63,174,126) w=0.8634166121482849
+                - FRAME "Container" [-183,-8666 94x50] id=4:1511
+                  - TEXT "Press has somewhere to point." [-183,-8667 81x51] id=4:1512
+                      fills: SOLID rgb(201,201,201)
+                      font=Onest 400 12/16.799 tracking=0.00 align=LEFT
+                      text: "Press has\\nsomewhere to\\npoint."
+              - FRAME "Overlay+Border" [-64,-8681 140x80] id=4:1513
+                  layout=HORIZONTAL gap=8 pad=14/14/30.799999237060547/14 radius=12
+                  fills: SOLID rgb(25,25,25)
+                  STROKE SOLID rgb(255,255,255) w=1
+                - INSTANCE "Component 3" [-49,-8666 9x14] id=4:1514
+                  - VECTOR "Vector" [-48,-8661 6x4] id=I4:1514;4:36
+                      STROKE SOLID rgb(63,174,126) w=0.9890834093093872
+                - FRAME "Container" [-32,-8666 93x34] id=4:1515
+                  - TEXT "The drop outlives the feed." [-32,-8667 97x34] id=4:1516
+                      fills: SOLID rgb(201,201,201)
+                      font=Onest 400 12/16.799 tracking=0.00 align=LEFT
+                      text: "The drop outlives\\nthe feed."
+              - FRAME "Overlay+Border" [85,-8681 140x80] id=4:1517
+                  layout=HORIZONTAL gap=8 pad=14/14/30.799999237060547/14 radius=12
+                  fills: SOLID rgb(25,25,25)
+                  STROKE SOLID rgb(255,255,255) w=1
+                - INSTANCE "Component 3" [100,-8666 8x14] id=4:1518
+                  - VECTOR "Vector" [102,-8661 5x4] id=I4:1518;4:39
+                      STROKE SOLID rgb(63,174,126) w=0.8688333034515381
+                - FRAME "Container" [116,-8666 94x34] id=4:1519
+                  - TEXT "Wholesale takes you seriously." [116,-8667 92x34] id=4:1520
+                      fills: SOLID rgb(201,201,201)
+                      font=Onest 400 12/16.799 tracking=0.00 align=LEFT
+                      text: "Wholesale takes\\nyou seriously."
+          - FRAME "Background+Border" [165,-8988 66x25] id=4:1521
+              layout=VERTICAL pad=4/12/4/12 radius=999
+              fills: SOLID rgb(25,25,25)
+              STROKE SOLID rgb(255,255,255) w=1
+            - TEXT "After" [178,-8983 40x15] id=4:1522
+                fills: SOLID rgb(166,166,166)
+                font=Onest 400 12/15.299 tracking=0.48 align=LEFT
+                text: "After"
+        - FRAME "BEFORE:mask-group" [-612,-9004 861x460] id=4:1523
+          - INSTANCE "Component 4" [-612,-9004 861x460] id=4:1524
+            - VECTOR "Vector" [-612,-9004 379x460] id=I4:1524;4:100
+                fills: SOLID rgb(0,0,0)
+          - FRAME "BEFORE" [-612,-9004 861x460] id=4:1525
+              layout=VERTICAL pad=58/24/26/24
+              fills: SOLID rgb(244,244,242)
+            - FRAME "Container" [-588,-8946 358x167] id=4:1526
+                layout=VERTICAL gap=10 pad=0/18/0/0
+              - FRAME "Container" [-588,-8946 340x15] id=4:1527
+                  layout=VERTICAL counter=CENTER pad=0/0/1/0
+                - TEXT "yourbusiness.weebly.com" [-480,-8946 124x14] id=4:1528
+                    fills: SOLID rgb(138,138,138)
+                    font=Times New Roman 400 12/13.798 tracking=0.00 align=CENTER
+                    text: "yourbusiness.weebly.com"
+              - FRAME "Heading 3" [-588,-8921 340x113] id=4:1529
+                  layout=VERTICAL counter=CENTER pad=53.45500183105469/0/0/0
+                - TEXT "WELCOME TO OUR WEBSITE" [-546,-8868 256x60] id=4:1530
+                    fills: SOLID rgb(34,34,34)
+                    font=Times New Roman 700 26/29.899 tracking=0.52 align=CENTER
+                    text: "WELCOME TO OUR\\nWEBSITE"
+              - FRAME "Container" [-588,-8798 340x19] id=4:1531
+                  layout=VERTICAL counter=CENTER
+                - TEXT "Site under construction. Check back soon!" [-567,-8798 297x19] id=4:1532
+                    fills: SOLID rgb(102,102,102)
+                    font=Onest 400 15/19.125 tracking=0.00 align=CENTER
+                    text: "Site under construction. Check back soon!"
+            - FRAME "Background" [-596,-8988 74x23] id=4:1533
+                layout=VERTICAL pad=4/12/4/12 radius=999
+                fills: SOLID rgb(255,255,255)
+              - TEXT "Before" [-584,-8984 50x15] id=4:1534
+                  fills: SOLID rgb(0,0,0)
+                  font=Onest 400 12/15.299 tracking=0.48 align=LEFT
+                  text: "Before"
+        - RECTANGLE "Vertical Divider" [-234,-9004 2x460] id=4:1535
+            fills: SOLID rgb(255,255,255)
+        - FRAME "Background+Shadow" [-255,-8796 44x44] id=4:1536
+            layout=HORIZONTAL primary=CENTER counter=CENTER radius=22
+            fills: SOLID rgb(255,255,255)
+          - INSTANCE "Component 3" [-242,-8783 18x18] id=4:1537
+            - VECTOR "Vector" [-239,-8778 4x8] id=I4:1537;4:42
+                STROKE SOLID rgb(11,11,11) w=1.6500000953674316
+            - VECTOR "Vector" [-232,-8778 4x8] id=I4:1537;4:43
+                STROKE SOLID rgb(11,11,11) w=1.6500000953674316
+    - FRAME "Margin" [-613,-8468 863x0] id=4:1538
+      - FRAME "Container" [-613,-8510 863x18] id=4:1539
+          layout=VERTICAL counter=CENTER
+        - TEXT "Drag to compare. The right side changes with the business type you pick below." [-444,-8510 524x18] id=4:1540
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+            text: "Drag to compare. The right side changes with the business type you pick below."
+  - FRAME "Section - SECTION 3 — TRUST BAR" [-1030,-8381 1280x382] id=4:1541
+      layout=GRID pad=10/10/10/10 radius=26
+      fills: GRADIENT_LINEAR 0%:rgb(17,17,17) 55%:rgb(7,7,7) 100%:rgb(12,9,7)
+      STROKE SOLID rgb(255,255,255) w=1
+    - RECTANGLE "Gradient" [-1030,-8381 1280x382] id=4:1542
+        fills: GRADIENT_RADIAL 0%:rgba(255,98,31,0.09) 70%:rgba(255,98,31,0)
+    - FRAME "Paragraph+Overlay+Border" [-1019,-8370 749x276] id=4:1543
+        layout=VERTICAL primary=SPACE_BETWEEN gap=21 pad=42/42/42.83000183105469/42 radius=18
+        fills: SOLID rgb(255,255,255)
+        STROKE SOLID rgb(255,255,255) w=1
+      - TEXT "Our delivered work:" [-976,-8327 170x17] id=4:1544
+          fills: SOLID rgb(170,170,170)
+          font=Onest 600 13/16.574 tracking=1.04 align=LEFT
+          text: "Our delivered work:"
+      - TEXT "ZAKA" [-976,-8310 108x43] id=4:1545
+          fills: SOLID rgb(255,255,255)
+          font=Neue Montreal 400 42/42.840 tracking=0.00 align=LEFT
+          text: "ZAKA"
+      - TEXT "House Pickleball" [-976,-8267 295x43] id=4:1546
+          fills: SOLID rgb(255,255,255)
+          font=Neue Montreal 400 42/42.840 tracking=0.00 align=LEFT
+          text: "House Pickleball"
+      - TEXT "Bioflex Aesthetics" [-976,-8224 320x43] id=4:1547
+          fills: SOLID rgb(255,255,255)
+          font=Neue Montreal 400 42/42.840 tracking=0.00 align=LEFT
+          text: "Bioflex Aesthetics"
+      - TEXT "NUST" [-976,-8181 108x43] id=4:1548
+          fills: SOLID rgb(255,255,255)
+          font=Neue Montreal 400 42/42.840 tracking=0.00 align=LEFT
+          text: "NUST"
+      - TEXT "01 / WORK" [-371,-8349 44x32] id=4:1549
+          fills: SOLID rgb(102,102,102)
+          font=Neue Montreal 400 13/15.600 tracking=1.92 align=LEFT
+          text: "01 /\\nWORK"
+    - FRAME "Overlay+Border" [-260,-8370 499x156] id=4:1550
+        layout=VERTICAL primary=SPACE_BETWEEN gap=21.53499984741211 pad=34/36/34/36 radius=18
+        fills: SOLID rgb(255,255,255)
+        STROKE SOLID rgb(255,255,255) w=1
+      - TEXT "The process:" [-223,-8335 106x17] id=4:1551
+          fills: SOLID rgb(170,170,170)
+          font=Onest 600 13/16.574 tracking=1.04 align=LEFT
+          text: "The process:"
+      - TEXT "02 / PROCESS" [111,-8349 72x32] id=4:1552
+          fills: SOLID rgb(102,102,102)
+          font=Neue Montreal 400 13/15.600 tracking=1.92 align=LEFT
+          text: "02 /\\nPROCESS"
+      - FRAME "Container" [-223,-8318 420x69] id=4:1553
+          layout=VERTICAL pad=0/50.209999084472656/0.625/0
+        - TEXT "Strategy, design, development, revision, and launch support." [-223,-8318 350x68] id=4:1554
+            fills: SOLID rgb(221,221,221)
+            font=Neue Montreal 400 27/33.75 tracking=0.00 align=LEFT
+            text: "Strategy, design, development,\\nrevision, and launch support."
+    - FRAME "Background+Border+Shadow" [-260,-8185 499x150] id=4:1555
+        layout=VERTICAL primary=SPACE_BETWEEN gap=26.774999618530273 pad=34/36/34/36 radius=18
+        fills: GRADIENT_LINEAR 0%:rgb(255,98,31) 100%:rgb(217,71,11)
+        STROKE SOLID rgb(255,129,75) w=1
+      - TEXT "No upfront design fee." [-223,-8150 192x17] id=4:1556
+          fills: SOLID rgb(170,170,170)
+          font=Onest 600 13/16.574 tracking=1.04 align=LEFT
+          text: "No upfront design fee."
+      - FRAME "Container" [-223,-8133 417x63] id=4:1557
+          layout=VERTICAL pad=0/9.90999984741211/0/0
+        - TEXT "The care plan is $39 to $59 a month, six month minimum." [-223,-8133 384x63] id=4:1558
+            fills: SOLID rgb(255,255,255)
+            font=Neue Montreal 400 25/31.25 tracking=0.00 align=LEFT
+            text: "The care plan is $39 to $59 a month,\\nsix month minimum."
+      - TEXT "03 / OFFER" [133,-8164 50x32] id=4:1559
+          fills: SOLID rgb(255,255,255)
+          font=Neue Montreal 400 13/15.600 tracking=1.92 align=LEFT
+          text: "03 /\\nOFFER"
+  - FRAME "Section - SECTION 4 — AUDIENCE SWITCHER" [-1030,-7899 1280x651] id=4:1560
+      layout=GRID pad=30/0/0/0
+    - FRAME "Container" [-1030,-7869 820x169] id=4:1561
+        layout=VERTICAL gap=20
+      - FRAME "Container" [-1030,-7869 820x18] id=4:1562
+          layout=HORIZONTAL counter=CENTER
+        - FRAME "Margin" [-1030,-7861 48x3] id=4:1563
+            layout=VERTICAL pad=0/8/0/0
+          - RECTANGLE "Overlay" [-1030,-7861 40x3] id=4:1564
+              radius=10
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-982,-7869 277x18] id=4:1565
+            layout=VERTICAL
+          - TEXT "Same offer. Shaped around your business." [-982,-7869 277x18] id=4:1566
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Same offer. Shaped around your business."
+      - FRAME "Heading 2" [-1030,-7831 820x50] id=4:1567
+          layout=VERTICAL
+        - TEXT "Pick the closest fit. The page will follow." [-1030,-7831 756x50] id=4:1568
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+            text: "Pick the closest fit. The page will follow."
+      - FRAME "Container" [-1030,-7761 820x61] id=4:1569
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "The website standard stays the same. What changes is what your website needs to say, which pages it needs, and which delivered work is closest to yours." [-1030,-7761 820x60] id=4:1570
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "The website standard stays the same. What changes is what your website needs to say, which pages it needs, and\\nwhich delivered work is closest to yours."
+    - FRAME "Margin" [-1030,-7679 280x445] id=4:1571
+        layout=VERTICAL pad=42/0/0/0
+      - FRAME "Container" [-1030,-7637 280x403] id=4:1572
+          layout=VERTICAL gap=10
+        - INSTANCE "Component 5" [-1030,-7637 280x49] id=4:1573
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7622 127x19] id=I4:1573;4:109
+              fills: SOLID rgb(255,255,255)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Fashion & Apparel"
+        - INSTANCE "Component 5" [-1030,-7578 280x49] id=4:1574
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: SOLID rgb(25,25,25)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7563 83x19] id=I4:1574;4:105
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Retail & Gift"
+        - INSTANCE "Component 5" [-1030,-7519 280x49] id=4:1575
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: SOLID rgb(25,25,25)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7504 123x19] id=I4:1575;4:105
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Jewelry & Luxury"
+        - INSTANCE "Component 5" [-1030,-7460 280x49] id=4:1576
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: SOLID rgb(25,25,25)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7445 138x19] id=I4:1576;4:105
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Aesthetics & Clinics"
+        - INSTANCE "Component 5" [-1030,-7401 280x49] id=4:1577
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: SOLID rgb(25,25,25)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7386 121x19] id=I4:1577;4:105
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Consumer Goods"
+        - INSTANCE "Component 5" [-1030,-7342 280x49] id=4:1578
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: SOLID rgb(25,25,25)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7327 108x19] id=I4:1578;4:105
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Tech & Product"
+        - INSTANCE "Component 5" [-1030,-7283 280x49] id=4:1579
+            layout=VERTICAL pad=14/16/14/16 radius=10
+            fills: SOLID rgb(25,25,25)
+            STROKE SOLID rgb(0,0,0) w=1
+          - TEXT "Text" [-1013,-7268 144x19] id=I4:1579;4:105
+              fills: SOLID rgb(166,166,166)
+              font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+              text: "Founders & Services"
+    - FRAME "Margin" [-702,-7679 952x442] id=4:1580
+        layout=VERTICAL pad=42/0/0/0
+      - FRAME "Container" [-702,-7637 952x400] id=4:1581
+          layout=HORIZONTAL primary=CENTER gap=24
+        - FRAME "VerticalBorder" [-702,-7637 580x400] id=4:1582
+            layout=VERTICAL gap=17.5 pad=17.125/0/18/30
+            STROKE SOLID rgb(255,255,255) w=0
+          - FRAME "Heading 3" [-671,-7620 549x81] id=4:1583
+              layout=VERTICAL
+            - TEXT "Give the label a home it can grow into." [-671,-7620 493x81] id=4:1584
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Neue Montreal 500 35/40.25 tracking=0.00 align=LEFT
+                text: "Give the label a home it can grow\\ninto."
+          - FRAME "Container" [-671,-7521 549x78] id=4:1585
+              layout=VERTICAL
+            - TEXT "The lookbook lives on a feed you rent. The brand should live somewhere you own." [-671,-7521 549x78] id=4:1586
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 16/25.920 tracking=0.00 align=LEFT
+                text: "The lookbook lives on a feed you rent. The brand should live somewhere you\\nown."
+          - RECTANGLE "Horizontal Divider" [-671,-7426 549x1] id=4:1587
+              fills: SOLID rgb(255,255,255)
+          - FRAME "Container" [-671,-7407 549x153] id=4:1588
+              layout=VERTICAL primary=CENTER gap=14
+            - FRAME "Container" [-671,-7376 549x21] id=4:1589
+                layout=HORIZONTAL gap=12
+              - FRAME "SVG:margin" [-671,-7376 18x20] id=4:1590
+                  layout=VERTICAL pad=2/0/0/0
+                - INSTANCE "Component 3" [-671,-7374 18x18] id=4:1591
+                  - VECTOR "Vector" [-668,-7370 12x8] id=I4:1591;4:46
+                      STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+              - FRAME "Container" [-641,-7376 231x21] id=4:1592
+                  layout=VERTICAL pad=0/0/1/0
+                - TEXT "Press has somewhere to point." [-641,-7376 231x20] id=4:1593
+                    fills: SOLID rgb(220,220,220)
+                    font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                    text: "Press has somewhere to point."
+            - FRAME "Container" [-671,-7341 549x21] id=4:1594
+                layout=HORIZONTAL gap=12
+              - FRAME "SVG:margin" [-671,-7341 18x20] id=4:1595
+                  layout=VERTICAL pad=2/0/0/0
+                - INSTANCE "Component 3" [-671,-7339 18x18] id=4:1596
+                  - VECTOR "Vector" [-668,-7335 12x8] id=I4:1596;4:46
+                      STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+              - FRAME "Container" [-641,-7341 200x21] id=4:1597
+                  layout=VERTICAL pad=0/0/1/0
+                - TEXT "The drop outlives the feed." [-641,-7341 200x20] id=4:1598
+                    fills: SOLID rgb(220,220,220)
+                    font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                    text: "The drop outlives the feed."
+            - FRAME "Container" [-671,-7306 549x21] id=4:1599
+                layout=HORIZONTAL gap=12
+              - FRAME "SVG:margin" [-671,-7306 18x20] id=4:1600
+                  layout=VERTICAL pad=2/0/0/0
+                - INSTANCE "Component 3" [-671,-7304 18x18] id=4:1601
+                  - VECTOR "Vector" [-668,-7300 12x8] id=I4:1601;4:46
+                      STROKE SOLID rgb(63,174,126) w=1.8000000715255737
+              - FRAME "Container" [-641,-7306 230x21] id=4:1602
+                  layout=VERTICAL pad=0/0/1/0
+                - TEXT "Wholesale takes you seriously." [-641,-7306 230x20] id=4:1603
+                    fills: SOLID rgb(220,220,220)
+                    font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+                    text: "Wholesale takes you seriously."
+        - FRAME "Container" [-98,-7637 348x400] id=4:1604
+            layout=VERTICAL gap=20
+          - FRAME "VerticalBorder" [-98,-7637 348x97] id=4:1605
+              layout=VERTICAL gap=10 pad=18/0/18/30
+              STROKE SOLID rgb(255,255,255) w=0
+            - FRAME "Container" [-67,-7619 317x18] id=4:1606
+                layout=VERTICAL
+              - TEXT "Closest delivered work" [-67,-7619 317x18] id=4:1607
+                  fills: SOLID rgb(220,220,220)
+                  font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+                  text: "Closest delivered work"
+            - FRAME "Heading 4" [-67,-7591 317x33] id=4:1608
+                layout=VERTICAL
+              - TEXT "Bioflex Aesthetics" [-67,-7591 234x33] id=4:1609
+                  fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                  font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+                  text: "Bioflex Aesthetics"
+          - FRAME "VerticalBorder" [-98,-7520 348x283] id=4:1610
+              layout=VERTICAL gap=10 pad=18/0/18/30
+              STROKE SOLID rgb(255,255,255) w=0
+            - FRAME "Container" [-67,-7502 317x18] id=4:1611
+                layout=VERTICAL
+              - TEXT "Typical build" [-67,-7502 317x18] id=4:1612
+                  fills: SOLID rgb(220,220,220)
+                  font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+                  text: "Typical build"
+            - FRAME "List" [-67,-7474 317x209] id=4:1613
+                layout=VERTICAL
+              - FRAME "Item" [-67,-7474 317x42] id=4:1614
+                  layout=HORIZONTAL counter=CENTER gap=10 pad=11/0/11/0
+                  STROKE SOLID rgb(255,255,255) w=0
+                - FRAME "Container" [-67,-7461 18x15] id=4:1615
+                    layout=VERTICAL
+                  - TEXT "01" [-67,-7461 13x15] id=4:1616
+                      fills: SOLID rgb(122,122,122)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "01"
+                - FRAME "Container" [-39,-7463 41x19] id=4:1617
+                    layout=VERTICAL
+                  - TEXT "Home" [-39,-7463 41x19] id=4:1618
+                      fills: SOLID rgb(220,220,220)
+                      font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                      text: "Home"
+              - FRAME "Item" [-67,-7432 317x42] id=4:1619
+                  layout=HORIZONTAL counter=CENTER gap=10 pad=11/0/11/0
+                  STROKE SOLID rgb(255,255,255) w=0
+                - FRAME "Container" [-67,-7419 18x15] id=4:1620
+                    layout=VERTICAL
+                  - TEXT "02" [-67,-7419 15x15] id=4:1621
+                      fills: SOLID rgb(122,122,122)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "02"
+                - FRAME "Container" [-39,-7421 70x19] id=4:1622
+                    layout=VERTICAL
+                  - TEXT "Collection" [-39,-7421 70x19] id=4:1623
+                      fills: SOLID rgb(220,220,220)
+                      font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                      text: "Collection"
+              - FRAME "Item" [-67,-7390 317x42] id=4:1624
+                  layout=HORIZONTAL counter=CENTER gap=10 pad=11/0/11/0
+                  STROKE SOLID rgb(255,255,255) w=0
+                - FRAME "Container" [-67,-7377 18x15] id=4:1625
+                    layout=VERTICAL
+                  - TEXT "03" [-67,-7377 16x15] id=4:1626
+                      fills: SOLID rgb(122,122,122)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "03"
+                - FRAME "Container" [-39,-7379 40x19] id=4:1627
+                    layout=VERTICAL
+                  - TEXT "Story" [-39,-7379 40x19] id=4:1628
+                      fills: SOLID rgb(220,220,220)
+                      font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                      text: "Story"
+              - FRAME "Item" [-67,-7348 317x42] id=4:1629
+                  layout=HORIZONTAL counter=CENTER gap=10 pad=11/0/11/0
+                  STROKE SOLID rgb(255,255,255) w=0
+                - FRAME "Container" [-67,-7335 18x15] id=4:1630
+                    layout=VERTICAL
+                  - TEXT "04" [-67,-7335 16x15] id=4:1631
+                      fills: SOLID rgb(122,122,122)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "04"
+                - FRAME "Container" [-39,-7337 66x19] id=4:1632
+                    layout=VERTICAL
+                  - TEXT "Stockists" [-39,-7337 66x19] id=4:1633
+                      fills: SOLID rgb(220,220,220)
+                      font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                      text: "Stockists"
+              - FRAME "Item" [-67,-7306 317x41] id=4:1634
+                  layout=HORIZONTAL counter=CENTER gap=10 pad=11/0/11/0
+                - FRAME "Container" [-67,-7293 18x15] id=4:1635
+                    layout=VERTICAL
+                  - TEXT "05" [-67,-7293 16x15] id=4:1636
+                      fills: SOLID rgb(122,122,122)
+                      font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                      text: "05"
+                - FRAME "Container" [-39,-7295 57x19] id=4:1637
+                    layout=VERTICAL
+                  - TEXT "Contact" [-39,-7295 57x19] id=4:1638
+                      fills: SOLID rgb(220,220,220)
+                      font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                      text: "Contact"

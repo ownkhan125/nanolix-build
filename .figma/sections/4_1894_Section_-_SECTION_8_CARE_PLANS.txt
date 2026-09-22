@@ -1,0 +1,287 @@
+- FRAME "Section - SECTION 8 — CARE PLANS" [-1350,-4302 1920x886] id=4:1894
+    layout=VERTICAL pad=140/320/90/320
+    fills: GRADIENT_LINEAR 0%:rgb(9,9,9) 100%:rgb(3,3,3)
+    STROKE SOLID rgb(255,255,255) w=1
+  - FRAME "Container" [-1030,-4161 1280x654] id=4:1895
+      layout=VERTICAL counter=CENTER gap=56
+    - FRAME "Container" [-740,-4161 700x88] id=4:1896
+        layout=VERTICAL gap=20
+      - FRAME "Container" [-740,-4161 700x18] id=4:1897
+          layout=HORIZONTAL primary=CENTER counter=CENTER
+        - FRAME "Margin" [-437,-4154 48x3] id=4:1898
+            layout=VERTICAL pad=0/8/0/0
+          - RECTANGLE "Overlay" [-437,-4154 40x3] id=4:1899
+              radius=10
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-389,-4161 45x18] id=4:1900
+            layout=VERTICAL counter=CENTER
+          - TEXT "Pricing" [-389,-4161 45x18] id=4:1901
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+              text: "Pricing"
+      - FRAME "Heading 2" [-740,-4123 700x50] id=4:1902
+          layout=VERTICAL counter=CENTER
+        - TEXT "Care plans" [-495,-4123 209x50] id=4:1903
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 45/49.950 tracking=0.00 align=CENTER
+            text: "Care plans"
+    - FRAME "Container" [-1030,-4017 1280x510] id=4:1904
+        layout=GRID
+      - FRAME "Background+Border" [-659,-4019 538x514] id=4:1905
+          layout=VERTICAL gap=14 pad=36/36/36/36 radius=16
+          fills: SOLID rgb(13,13,13)
+          STROKE SOLID rgb(63,174,126) w=2
+        - FRAME "Background" [-629,-4030 76x23] id=4:1906
+            layout=VERTICAL pad=4/12/4/12 radius=999
+            fills: SOLID rgb(63,174,126)
+          - TEXT "Required" [-617,-4026 52x15] id=4:1907
+              fills: SOLID rgb(4,21,14)
+              font=Onest 600 12/15.299 tracking=0.00 align=LEFT
+              text: "Required"
+        - RECTANGLE "Overlay+Shadow" [-659,-4019 538x514] id=4:1908
+            radius=16
+            fills: SOLID rgb(255,255,255)
+        - FRAME "Heading 4" [-621,-3981 462x33] id=4:1909
+            layout=VERTICAL
+          - TEXT "Launch" [-621,-3981 98x33] id=4:1910
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "Launch"
+        - FRAME "Container" [-621,-3934 462x18] id=4:1911
+            layout=VERTICAL
+          - TEXT "Required, marked with a green ring." [-621,-3934 462x18] id=4:1912
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Required, marked with a green ring."
+        - FRAME "Container" [-621,-3902 462x33] id=4:1913
+            layout=VERTICAL
+          - TEXT "$39 to $59 a month" [-621,-3902 462x33] id=4:1914
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "$39 to $59 a month"
+        - FRAME "Container" [-621,-3855 462x18] id=4:1915
+            layout=VERTICAL
+          - TEXT "six month minimum" [-621,-3855 462x18] id=4:1916
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "six month minimum"
+        - FRAME "Margin" [-621,-3823 462x13] id=4:1917
+            layout=VERTICAL pad=6/0/6/0
+          - RECTANGLE "Horizontal Divider" [-621,-3817 462x1] id=4:1918
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-621,-3796 462x124] id=4:1919
+            layout=VERTICAL
+          - FRAME "Container" [-621,-3796 462x31] id=4:1920
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-621,-3790 16x19] id=4:1921
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-621,-3787 16x16] id=4:1922
+                - VECTOR "Vector" [-618,-3783 11x7] id=I4:1922;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Managed hosting and SSL" [-595,-3790 184x19] id=4:1923
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Managed hosting and SSL"
+          - FRAME "Container" [-621,-3765 462x31] id=4:1924
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-621,-3759 16x19] id=4:1925
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-621,-3756 16x16] id=4:1926
+                - VECTOR "Vector" [-618,-3752 11x7] id=I4:1926;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Backups and uptime monitoring" [-595,-3759 221x19] id=4:1927
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Backups and uptime monitoring"
+          - FRAME "Container" [-621,-3734 462x31] id=4:1928
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-621,-3728 16x19] id=4:1929
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-621,-3725 16x16] id=4:1930
+                - VECTOR "Vector" [-618,-3721 11x7] id=I4:1930;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Up to 30 minutes of small edits monthly" [-595,-3728 278x19] id=4:1931
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Up to 30 minutes of small edits monthly"
+          - FRAME "Container" [-621,-3703 462x31] id=4:1932
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-621,-3697 16x19] id=4:1933
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-621,-3694 16x16] id=4:1934
+                - VECTOR "Vector" [-618,-3690 11x7] id=I4:1934;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Email support from a real person" [-595,-3697 227x19] id=4:1935
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Email support from a real person"
+        - FRAME "Link:margin" [-621,-3658 462x115] id=4:1936
+            layout=VERTICAL primary=MAX pad=67/0/0/0
+          - INSTANCE "Component 2" [-621,-3594 462x51] id=4:1937
+              layout=HORIZONTAL primary=CENTER counter=CENTER pad=15/40/15/40 radius=40
+              fills: GRADIENT_LINEAR 0%:rgb(255,80,11) 100%:rgb(230,74,0)
+            - RECTANGLE "Gradient+Blur" [-1083,-3642 1386x231] id=I4:1937;4:21
+                fills: GRADIENT_RADIAL 0%:rgb(255,208,122) 50%:rgba(255,208,122,0)
+            - FRAME "Container" [-457,-3579 134x21] id=I4:1937;4:22
+                layout=VERTICAL counter=CENTER pad=0/0/1/0
+              - TEXT "Text" [-457,-3579 134x20] id=I4:1937;4:23
+                  fills: SOLID rgb(255,255,255)
+                  font=Onest 500 16/20.399 tracking=-0.32 align=CENTER
+                  text: "Apply in 2 minutes"
+      - FRAME "Background+Border" [-1030,-3978 353x432] id=4:1938
+          layout=VERTICAL gap=14 pad=26/26/96/26 radius=16
+          fills: SOLID rgb(13,13,13)
+          STROKE SOLID rgb(255,255,255) w=1
+        - FRAME "Heading 4" [-1003,-3951 299x33] id=4:1939
+            layout=VERTICAL
+          - TEXT "Growth" [-1003,-3951 98x33] id=4:1940
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "Growth"
+        - FRAME "Container" [-1003,-3904 299x18] id=4:1941
+            layout=VERTICAL
+          - TEXT "Optional, month to month after the term." [-1003,-3904 299x18] id=4:1942
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Optional, month to month after the term."
+        - FRAME "Container" [-1003,-3872 299x33] id=4:1943
+            layout=VERTICAL
+          - TEXT "$149 to $199/month" [-1003,-3872 299x33] id=4:1944
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "$149 to $199/month"
+        - FRAME "Margin" [-1003,-3825 299x13] id=4:1945
+            layout=VERTICAL pad=6/0/6/0
+          - RECTANGLE "Horizontal Divider" [-1003,-3819 299x1] id=4:1946
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-1003,-3798 299x155] id=4:1947
+            layout=VERTICAL
+          - FRAME "Container" [-1003,-3798 299x31] id=4:1948
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-1003,-3792 16x19] id=4:1949
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-1003,-3789 16x16] id=4:1950
+                - VECTOR "Vector" [-1000,-3785 11x7] id=I4:1950;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Everything in Launch" [-977,-3792 148x19] id=4:1951
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Everything in Launch"
+          - FRAME "Container" [-1003,-3767 299x31] id=4:1952
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-1003,-3761 16x19] id=4:1953
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-1003,-3758 16x16] id=4:1954
+                - VECTOR "Vector" [-1000,-3754 11x7] id=I4:1954;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Monthly content edits" [-977,-3761 156x19] id=4:1955
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Monthly content edits"
+          - FRAME "Container" [-1003,-3736 299x31] id=4:1956
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-1003,-3730 16x19] id=4:1957
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-1003,-3727 16x16] id=4:1958
+                - VECTOR "Vector" [-1000,-3723 11x7] id=I4:1958;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Basic search upkeep" [-977,-3730 145x19] id=4:1959
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Basic search upkeep"
+          - FRAME "Container" [-1003,-3705 299x31] id=4:1960
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-1003,-3699 16x19] id=4:1961
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-1003,-3696 16x16] id=4:1962
+                - VECTOR "Vector" [-1000,-3692 11x7] id=I4:1962;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Priority support" [-977,-3699 110x19] id=4:1963
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Priority support"
+          - FRAME "Container" [-1003,-3674 299x31] id=4:1964
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-1003,-3668 16x19] id=4:1965
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-1003,-3665 16x16] id=4:1966
+                - VECTOR "Vector" [-1000,-3661 11x7] id=I4:1966;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Light monthly reporting" [-977,-3668 166x19] id=4:1967
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Light monthly reporting"
+      - FRAME "Background+Border" [-103,-3980 353x436] id=4:1968
+          layout=VERTICAL gap=14 pad=26/26/112/26 radius=16
+          fills: SOLID rgb(13,13,13)
+          STROKE SOLID rgb(255,255,255) w=1
+        - FRAME "Heading 4" [-76,-3953 299x33] id=4:1969
+            layout=VERTICAL
+          - TEXT "Scale" [-76,-3953 74x33] id=4:1970
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "Scale"
+        - FRAME "Container" [-76,-3906 299x18] id=4:1971
+            layout=VERTICAL
+          - TEXT "Optional, month to month." [-76,-3906 299x18] id=4:1972
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+              text: "Optional, month to month."
+        - FRAME "Container" [-76,-3874 299x33] id=4:1973
+            layout=VERTICAL
+          - TEXT "$299 to $499/month" [-76,-3874 299x33] id=4:1974
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "$299 to $499/month"
+        - FRAME "Margin" [-76,-3827 299x13] id=4:1975
+            layout=VERTICAL pad=6/0/6/0
+          - RECTANGLE "Horizontal Divider" [-76,-3821 299x1] id=4:1976
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-76,-3800 299x143] id=4:1977
+            layout=VERTICAL
+          - FRAME "Container" [-76,-3800 299x31] id=4:1978
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-76,-3794 16x19] id=4:1979
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-76,-3791 16x16] id=4:1980
+                - VECTOR "Vector" [-73,-3787 11x7] id=I4:1980;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Everything in Growth" [-50,-3794 149x19] id=4:1981
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Everything in Growth"
+          - FRAME "Container" [-76,-3769 299x50] id=4:1982
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-76,-3763 16x19] id=4:1983
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-76,-3760 16x16] id=4:1984
+                - VECTOR "Vector" [-73,-3756 11x7] id=I4:1984;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - FRAME "Container" [-50,-3763 287x38] id=4:1985
+                layout=VERTICAL pad=0/42.83000183105469/0/0
+              - TEXT "A landing page or design set every month" [-50,-3763 244x38] id=4:1986
+                  fills: SOLID rgb(220,220,220)
+                  font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                  text: "A landing page or design set every\\nmonth"
+          - FRAME "Container" [-76,-3719 299x31] id=4:1987
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-76,-3713 16x19] id=4:1988
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-76,-3710 16x16] id=4:1989
+                - VECTOR "Vector" [-73,-3706 11x7] id=I4:1989;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "Conversion tweaks" [-50,-3713 134x19] id=4:1990
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "Conversion tweaks"
+          - FRAME "Container" [-76,-3688 299x31] id=4:1991
+              layout=HORIZONTAL gap=10 pad=6/0/6/0
+            - FRAME "SVG:margin" [-76,-3682 16x19] id=4:1992
+                layout=VERTICAL pad=3/0/0/0
+              - INSTANCE "Component 3" [-76,-3679 16x16] id=4:1993
+                - VECTOR "Vector" [-73,-3675 11x7] id=I4:1993;4:66
+                    STROKE SOLID rgb(63,174,126) w=1.7333333492279053
+            - TEXT "A quarterly strategy session" [-50,-3682 199x19] id=4:1994
+                fills: SOLID rgb(220,220,220)
+                font=Onest 400 15/19.125 tracking=0.00 align=LEFT
+                text: "A quarterly strategy session"

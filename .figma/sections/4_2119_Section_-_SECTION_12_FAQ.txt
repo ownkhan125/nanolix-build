@@ -1,0 +1,235 @@
+- FRAME "Section - SECTION 12 — FAQ" [-1030,-736 1280x670] id=4:2119
+    layout=HORIZONTAL primary=CENTER gap=70 pad=49.9900016784668/0/0/0
+  - FRAME "Container" [-1030,-686 280x88] id=4:2120
+      layout=VERTICAL gap=20
+    - FRAME "Container" [-1030,-686 280x18] id=4:2121
+        layout=HORIZONTAL counter=CENTER
+      - FRAME "Margin" [-1030,-678 48x3] id=4:2122
+          layout=VERTICAL pad=0/8/0/0
+        - RECTANGLE "Overlay" [-1030,-678 40x3] id=4:2123
+            radius=10
+            fills: SOLID rgb(255,255,255)
+      - FRAME "Container" [-982,-686 35x18] id=4:2124
+          layout=VERTICAL
+        - TEXT "FAQs" [-982,-686 35x18] id=4:2125
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+            text: "FAQs"
+    - FRAME "Heading 2" [-1030,-648 280x50] id=4:2126
+        layout=VERTICAL
+      - TEXT "Questions" [-1030,-648 201x50] id=4:2127
+          fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+          font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+          text: "Questions"
+  - FRAME "Container" [-680,-686 930x620] id=4:2128
+      layout=VERTICAL gap=10
+    - FRAME "Details" [-680,-686 930x80] id=4:2129
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-685 888x78] id=4:2130
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=566.1199951171875
+        - FRAME "Container" [-639,-677 243x63] id=4:2131
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-659 8x27] id=4:2132
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "1" [-639,-659 8x26] id=4:2133
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "1"
+          - FRAME "Heading 5" [-591,-659 187x27] id=4:2134
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Is this actually free?" [-591,-659 187x26] id=4:2135
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "Is this actually free?"
+        - FRAME "Background:align-stretch" [163,-685 86x78] id=4:2136
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-685 86x78] id=4:2137
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-657 22x22] id=4:2138
+              - VECTOR "Vector" [196,-647 20x2] id=I4:2138;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-656 2x20] id=I4:2138;4:70
+                  fills: SOLID rgb(255,255,255)
+    - FRAME "Details" [-680,-596 930x80] id=4:2139
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-595 888x78] id=4:2140
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=578.3400268554688
+        - FRAME "Container" [-639,-587 236x63] id=4:2141
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-569 12x27] id=4:2142
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "2" [-639,-569 12x26] id=4:2143
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "2"
+          - FRAME "Heading 5" [-587,-569 176x27] id=4:2144
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "What is the catch?" [-587,-569 176x26] id=4:2145
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "What is the catch?"
+        - FRAME "Background:align-stretch" [163,-595 86x78] id=4:2146
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-595 86x78] id=4:2147
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-567 22x22] id=4:2148
+              - VECTOR "Vector" [196,-557 20x2] id=I4:2148;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-566 2x20] id=I4:2148;4:70
+                  fills: SOLID rgb(255,255,255)
+    - FRAME "Details" [-680,-506 930x80] id=4:2149
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-505 888x78] id=4:2150
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=546.0900268554688
+        - FRAME "Container" [-639,-497 269x63] id=4:2151
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-479 12x27] id=4:2152
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "3" [-639,-479 12x26] id=4:2153
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "3"
+          - FRAME "Heading 5" [-587,-479 209x27] id=4:2154
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Do I own the website?" [-587,-479 209x26] id=4:2155
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "Do I own the website?"
+        - FRAME "Background:align-stretch" [163,-505 86x78] id=4:2156
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-505 86x78] id=4:2157
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-477 22x22] id=4:2158
+              - VECTOR "Vector" [196,-467 20x2] id=I4:2158;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-476 2x20] id=I4:2158;4:70
+                  fills: SOLID rgb(255,255,255)
+    - FRAME "Details" [-680,-416 930x80] id=4:2159
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-415 888x78] id=4:2160
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=506.0899963378906
+        - FRAME "Container" [-639,-407 308x63] id=4:2161
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-389 13x27] id=4:2162
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "4" [-639,-389 13x26] id=4:2163
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "4"
+          - FRAME "Heading 5" [-586,-389 247x27] id=4:2164
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "What if I change my mind?" [-586,-389 247x26] id=4:2165
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "What if I change my mind?"
+        - FRAME "Background:align-stretch" [163,-415 86x78] id=4:2166
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-415 86x78] id=4:2167
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-387 22x22] id=4:2168
+              - VECTOR "Vector" [196,-377 20x2] id=I4:2168;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-386 2x20] id=I4:2168;4:70
+                  fills: SOLID rgb(255,255,255)
+    - FRAME "Details" [-680,-326 930x80] id=4:2169
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-325 888x78] id=4:2170
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=471.5899963378906
+        - FRAME "Container" [-639,-317 346x63] id=4:2171
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-299 13x27] id=4:2172
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "5" [-639,-299 13x26] id=4:2173
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "5"
+          - FRAME "Heading 5" [-586,-299 285x27] id=4:2174
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Do I have to use your hosting?" [-586,-299 285x26] id=4:2175
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "Do I have to use your hosting?"
+        - FRAME "Background:align-stretch" [163,-325 86x78] id=4:2176
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-325 86x78] id=4:2177
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-297 22x22] id=4:2178
+              - VECTOR "Vector" [196,-287 20x2] id=I4:2178;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-296 2x20] id=I4:2178;4:70
+                  fills: SOLID rgb(255,255,255)
+    - FRAME "Details" [-680,-236 930x80] id=4:2179
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-235 888x78] id=4:2180
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=540.530029296875
+        - FRAME "Container" [-639,-227 276x63] id=4:2181
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-209 13x27] id=4:2182
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "6" [-639,-209 13x26] id=4:2183
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "6"
+          - FRAME "Heading 5" [-586,-209 215x27] id=4:2184
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "How long does it take?" [-586,-209 215x26] id=4:2185
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "How long does it take?"
+        - FRAME "Background:align-stretch" [163,-235 86x78] id=4:2186
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-235 86x78] id=4:2187
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-207 22x22] id=4:2188
+              - VECTOR "Vector" [196,-197 20x2] id=I4:2188;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-206 2x20] id=I4:2188;4:70
+                  fills: SOLID rgb(255,255,255)
+    - FRAME "Details" [-680,-146 930x80] id=4:2189
+        layout=VERTICAL pad=0/0/0/40 radius=8
+        fills: SOLID rgb(8,8,8)
+        STROKE SOLID rgb(41,41,41) w=1
+      - FRAME "Slot → Summary" [-639,-145 888x78] id=4:2190
+          layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=494.95001220703125
+        - FRAME "Container" [-639,-137 320x63] id=4:2191
+            layout=HORIZONTAL counter=CENTER gap=40 pad=18/8/18/0
+          - FRAME "Heading 5" [-639,-119 11x27] id=4:2192
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "7" [-639,-119 11x26] id=4:2193
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "7"
+          - FRAME "Heading 5" [-588,-119 261x27] id=4:2194
+              layout=VERTICAL pad=0/0/1/0
+            - TEXT "Why is it application based?" [-588,-119 261x26] id=4:2195
+                fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+                font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+                text: "Why is it application based?"
+        - FRAME "Background:align-stretch" [163,-145 86x78] id=4:2196
+            layout=HORIZONTAL
+          - FRAME "Background" [163,-145 86x78] id=4:2197
+              layout=HORIZONTAL counter=CENTER pad=28/32/28/32
+              fills: GRADIENT_LINEAR 0%:rgb(33,34,35) 100%:rgb(29,29,29)
+            - INSTANCE "Component 3" [195,-117 22x22] id=4:2198
+              - VECTOR "Vector" [196,-107 20x2] id=I4:2198;4:69
+                  fills: SOLID rgb(255,255,255)
+              - VECTOR "Vector" [205,-116 2x20] id=I4:2198;4:70
+                  fills: SOLID rgb(255,255,255)

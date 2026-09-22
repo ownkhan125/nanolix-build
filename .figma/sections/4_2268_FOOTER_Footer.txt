@@ -1,0 +1,105 @@
+- FRAME "FOOTER → Footer" [-1030,1397 1280x442] id=4:2268
+    layout=VERTICAL gap=30 pad=50/0/30/0
+    STROKE SOLID rgb(255,255,255) w=1
+  - INSTANCE "Component 3" [-1030,1448 170x49] id=4:2269
+    - GROUP "Group" [-979,1454 119x39] id=I4:2269;4:79
+      - VECTOR "Vector" [-979,1481 10x12] id=I4:2269;4:80
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-957,1481 2x12] id=I4:2269;4:81
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-944,1480 11x12] id=I4:2269;4:82
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-920,1481 2x12] id=I4:2269;4:83
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-907,1481 8x12] id=I4:2269;4:84
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-888,1481 10x12] id=I4:2269;4:85
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-866,1481 6x12] id=I4:2269;4:86
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-979,1454 16x18] id=I4:2269;4:87
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-961,1454 18x18] id=I4:2269;4:88
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-939,1454 16x18] id=I4:2269;4:89
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-920,1454 18x19] id=I4:2269;4:90
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-897,1454 10x18] id=I4:2269;4:91
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-884,1454 4x18] id=I4:2269;4:92
+          fills: SOLID rgb(255,255,255)
+      - VECTOR "Vector" [-877,1454 17x18] id=I4:2269;4:93
+          fills: SOLID rgb(255,255,255)
+    - GROUP "Group" [-1029,1448 40x49] id=I4:2269;4:94
+      - VECTOR "Vector" [-1023,1448 34x49] id=I4:2269;4:95
+          fills: SOLID rgb(255,98,31)
+      - VECTOR "Vector" [-1008,1448 19x24] id=I4:2269;4:96
+          fills: SOLID rgb(255,98,31)
+      - VECTOR "Vector" [-1029,1474 19x24] id=I4:2269;4:97
+          fills: SOLID rgb(255,98,31)
+  - FRAME "Container" [-1030,1528 1280x203] id=4:2270
+      layout=GRID pad=9.989999771118164/0/0/0
+    - FRAME "Container" [-1030,1538 465x273] id=4:2271
+        layout=VERTICAL gap=15.305000305175781
+      - FRAME "Container" [-1030,1538 465x24] id=4:2272
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Affiliate Disclosure" [-1030,1538 465x23] id=4:2273
+            fills: SOLID rgb(255,255,255)
+            font=Onest 400 18/22.949 tracking=0.00 align=LEFT
+            text: "Affiliate Disclosure"
+      - FRAME "Container" [-1030,1577 465x234] id=4:2274
+          layout=VERTICAL
+        - TEXT "In some cases, we may recommend third-party tools such as hosting, domains, email, or software. If you choose to purchase through our links, we may earn a referral commission at no extra cost to you. We only recommend tools we believe are appropriate for your project, and you are free to use your own providers if they meet the project requirements." [-1030,1577 465x234] id=4:2275
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/25.920 tracking=0.00 align=LEFT
+            text: "In some cases, we may recommend third-party tools such as\\nhosting, domains, email, or software. If you choose to purchase\\nthrough our links, we may earn a referral commission at no extra\\ncost to you. We only recommend tools we believe are appropriate\\nfor your project, and you are free to use your own providers if\\nthey meet the project requirements."
+    - FRAME "Container" [-525,1538 775x221] id=4:2276
+        layout=VERTICAL gap=15.425000190734863 pad=0/0/77.76000213623047/0
+      - FRAME "Container" [-525,1538 775x24] id=4:2277
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Terms Summary" [-525,1538 775x23] id=4:2278
+            fills: SOLID rgb(255,255,255)
+            font=Onest 400 18/22.949 tracking=0.00 align=LEFT
+            text: "Terms Summary"
+      - FRAME "Container" [-525,1577 775x104] id=4:2279
+          layout=VERTICAL
+        - TEXT "Application based. One revision round. You own the site. Required care plan of $39 to $59 a month, six month minimum, covering hosting and support. Upgrades are optional, never required. Cancel within the first 30 days and care plan payments are refunded. No guarantees of leads, sales, or rankings." [-525,1577 775x104] id=4:2280
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/25.920 tracking=0.00 align=LEFT
+            text: "Application based. One revision round. You own the site. Required care plan of $39 to $59 a month, six\\nmonth minimum, covering hosting and support. Upgrades are optional, never required. Cancel within the first\\n30 days and care plan payments are refunded. No guarantees of leads, sales, or rankings."
+  - FRAME "HorizontalBorder" [-1030,1760 1280x49] id=4:2281
+      layout=HORIZONTAL primary=SPACE_BETWEEN counter=CENTER gap=615.0999755859375 pad=30/0/0/0
+      STROKE SOLID rgb(255,255,255) w=1
+    - FRAME "Container" [-1030,1791 350x18] id=4:2282
+        layout=VERTICAL counter=CENTER
+      - TEXT "© Copyright 2026, Nanolix Digital All Rights Reserved" [-1030,1791 350x18] id=4:2283
+          fills: SOLID rgb(155,155,155)
+          font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+          text: "© Copyright 2026, Nanolix Digital All Rights Reserved"
+    - FRAME "Container" [-103,1791 353x18] id=4:2284
+        layout=HORIZONTAL counter=CENTER gap=24
+      - INSTANCE "Component 9" [-103,1791 73x18] id=4:2285
+          layout=VERTICAL
+        - TEXT "Text" [-103,1791 73x18] id=I4:2285;4:210
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 14/17.850 tracking=-0.32 align=LEFT
+            text: "Who it’s for"
+      - INSTANCE "Component 9" [-6,1791 101x18] id=4:2286
+          layout=VERTICAL
+        - TEXT "Text" [-6,1791 101x18] id=I4:2286;4:210
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 14/17.850 tracking=-0.32 align=LEFT
+            text: "What’s included"
+      - INSTANCE "Component 9" [119,1791 43x18] id=4:2287
+          layout=VERTICAL
+        - TEXT "Text" [119,1791 43x18] id=I4:2287;4:210
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 14/17.850 tracking=-0.32 align=LEFT
+            text: "Pricing"
+      - INSTANCE "Component 9" [186,1791 64x18] id=4:2288
+          layout=VERTICAL
+        - TEXT "Text" [186,1791 64x18] id=I4:2288;4:210
+            fills: SOLID rgb(161,161,170)
+            font=Onest 400 14/17.850 tracking=-0.32 align=LEFT
+            text: "Questions"

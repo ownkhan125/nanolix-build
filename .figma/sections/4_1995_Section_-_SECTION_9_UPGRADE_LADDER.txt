@@ -1,0 +1,146 @@
+- FRAME "Section - SECTION 9 — UPGRADE LADDER" [-1030,-3336 1280x846] id=4:1995
+  - FRAME "Container" [-1030,-3286 760x137] id=4:1996
+      layout=VERTICAL gap=19.475000381469727
+    - FRAME "Container" [-1030,-3286 760x18] id=4:1997
+        layout=HORIZONTAL counter=CENTER
+      - FRAME "Margin" [-1030,-3279 48x3] id=4:1998
+          layout=VERTICAL pad=0/8/0/0
+        - RECTANGLE "Overlay" [-1030,-3279 40x3] id=4:1999
+            radius=10
+            fills: SOLID rgb(255,255,255)
+      - FRAME "Container" [-982,-3286 102x18] id=4:2000
+          layout=VERTICAL
+        - TEXT "Upgrade ladder" [-982,-3286 102x18] id=4:2001
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 14/17.850 tracking=0.00 align=LEFT
+            text: "Upgrade ladder"
+    - FRAME "Heading 2" [-1030,-3249 760x100] id=4:2002
+        layout=VERTICAL
+      - TEXT "If you ever want more, here are the prices" [-1030,-3249 663x100] id=4:2003
+          fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+          font=Neue Montreal 500 45/49.950 tracking=0.00 align=LEFT
+          text: "If you ever want more, here are the\\nprices"
+  - FRAME "HorizontalBorder" [-1030,-3100 1280x536] id=4:2004
+      layout=VERTICAL
+      STROKE SOLID rgb(255,255,255) w=1
+    - INSTANCE "Component 6" [-1030,-3099 1280x107] id=4:2005
+        layout=GRID pad=28/0/28/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Container" [-1030,-3074 502x56] id=I4:2005;4:119
+          layout=VERTICAL gap=4
+        - FRAME "Heading 5" [-1030,-3074 502x27] id=I4:2005;4:120
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Setup" [-1030,-3074 57x26] id=I4:2005;4:121
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Setup"
+        - FRAME "Container" [-1030,-3043 502x25] id=I4:2005;4:122
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "$49 to $299 one time" [-1030,-3043 502x24] id=I4:2005;4:123
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 20/24 tracking=0.00 align=LEFT
+              text: "$49 to $299 one time"
+      - FRAME "Container" [-504,-3057 754x21] id=I4:2005;4:124
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Business email, domain setup, analytics, extra pages." [-504,-3057 393x20] id=I4:2005;4:125
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "Business email, domain setup, analytics, extra pages."
+    - INSTANCE "Component 6" [-1030,-2992 1280x107] id=4:2006
+        layout=GRID pad=28/0/28/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Container" [-1030,-2967 502x56] id=I4:2006;4:135
+          layout=VERTICAL gap=4
+        - FRAME "Heading 5" [-1030,-2967 502x27] id=I4:2006;4:136
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Monthly support and growth" [-1030,-2967 268x26] id=I4:2006;4:137
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Monthly support and growth"
+        - FRAME "Container" [-1030,-2936 502x25] id=I4:2006;4:138
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "$49 to $499/month" [-1030,-2936 502x24] id=I4:2006;4:139
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 20/24 tracking=0.00 align=LEFT
+              text: "$49 to $499/month"
+      - FRAME "Container" [-504,-2950 754x21] id=I4:2006;4:140
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Content modules, search upkeep, deeper reporting, extended support." [-504,-2950 526x20] id=I4:2006;4:141
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "Content modules, search upkeep, deeper reporting, extended support."
+    - INSTANCE "Component 6" [-1030,-2885 1280x107] id=4:2007
+        layout=GRID pad=28/0/28/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Container" [-1030,-2860 502x56] id=I4:2007;4:151
+          layout=VERTICAL gap=4
+        - FRAME "Heading 5" [-1030,-2860 502x27] id=I4:2007;4:152
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Creative" [-1030,-2860 78x26] id=I4:2007;4:153
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Creative"
+        - FRAME "Container" [-1030,-2829 502x25] id=I4:2007;4:154
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "$99 to $5,000+" [-1030,-2829 502x24] id=I4:2007;4:155
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 20/24 tracking=0.00 align=LEFT
+              text: "$99 to $5,000+"
+      - FRAME "Container" [-504,-2843 754x21] id=I4:2007;4:156
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Brand identity, logo suites, brand guides, motion, packaging." [-504,-2843 449x20] id=I4:2007;4:157
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "Brand identity, logo suites, brand guides, motion, packaging."
+    - INSTANCE "Component 6" [-1030,-2778 1280x107] id=4:2008
+        layout=GRID pad=28/0/28/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Container" [-1030,-2753 502x56] id=I4:2008;4:167
+          layout=VERTICAL gap=4
+        - FRAME "Heading 5" [-1030,-2753 502x27] id=I4:2008;4:168
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Website and experience" [-1030,-2753 226x26] id=I4:2008;4:169
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Website and experience"
+        - FRAME "Container" [-1030,-2722 502x25] id=I4:2008;4:170
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "$500 to $15,000+" [-1030,-2722 502x24] id=I4:2008;4:171
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 20/24 tracking=0.00 align=LEFT
+              text: "$500 to $15,000+"
+      - FRAME "Container" [-504,-2736 754x21] id=I4:2008;4:172
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Redesigns, conversion work, larger builds, online stores." [-504,-2736 416x20] id=I4:2008;4:173
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "Redesigns, conversion work, larger builds, online stores."
+    - INSTANCE "Component 6" [-1030,-2671 1280x107] id=4:2009
+        layout=GRID pad=28/0/28/0
+        STROKE SOLID rgb(255,255,255) w=0
+      - FRAME "Container" [-1030,-2646 502x56] id=I4:2009;4:183
+          layout=VERTICAL gap=4
+        - FRAME "Heading 5" [-1030,-2646 502x27] id=I4:2009;4:184
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "Custom development and apps" [-1030,-2646 291x26] id=I4:2009;4:185
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Onest 400 20/25.5 tracking=0.00 align=LEFT
+              text: "Custom development and apps"
+        - FRAME "Container" [-1030,-2615 502x25] id=I4:2009;4:186
+            layout=VERTICAL pad=0/0/1/0
+          - TEXT "$2,500 to $50,000+" [-1030,-2615 502x24] id=I4:2009;4:187
+              fills: SOLID rgb(255,255,255)
+              font=Neue Montreal 500 20/24 tracking=0.00 align=LEFT
+              text: "$2,500 to $50,000+"
+      - FRAME "Container" [-504,-2629 754x21] id=I4:2009;4:188
+          layout=VERTICAL pad=0/0/1/0
+        - TEXT "Client portals, booking systems, connected tools, custom web apps." [-504,-2629 509x20] id=I4:2009;4:189
+            fills: SOLID rgb(220,220,220)
+            font=Onest 400 16/20.399 tracking=0.00 align=LEFT
+            text: "Client portals, booking systems, connected tools, custom web apps."
+  - FRAME "Container" [-770,-2532 760x47] id=4:2010
+      layout=VERTICAL counter=CENTER pad=0/0/1/0
+    - TEXT "If a smaller piece of work would serve you better, we will say so. That has cost us projects, and we still do it." [-789,-2532 798x46] id=4:2011
+        fills: SOLID rgb(220,220,220)
+        font=Onest 400 18/22.949 tracking=0.00 align=CENTER
+        text: "If a smaller piece of work would serve you better, we will say so. That has cost us projects, and\\nwe still do it."

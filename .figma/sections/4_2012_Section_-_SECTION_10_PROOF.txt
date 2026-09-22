@@ -1,0 +1,129 @@
+- FRAME "Section - SECTION 10 — PROOF" [-1350,-2410 1920x772] id=4:2012
+    layout=VERTICAL pad=139.99000549316406/320/90/320
+    fills: GRADIENT_LINEAR 0%:rgb(9,9,9) 100%:rgb(3,3,3)
+    STROKE SOLID rgb(255,255,255) w=1
+  - FRAME "Container" [-1030,-2269 1280x540] id=4:2013
+      layout=VERTICAL counter=CENTER gap=50.0099983215332
+    - FRAME "Container" [-740,-2269 700x88] id=4:2014
+        layout=VERTICAL gap=20
+      - FRAME "Container" [-740,-2269 700x18] id=4:2015
+          layout=HORIZONTAL primary=CENTER counter=CENTER
+        - FRAME "Margin" [-432,-2262 48x3] id=4:2016
+            layout=VERTICAL pad=0/8/0/0
+          - RECTANGLE "Overlay" [-432,-2262 40x3] id=4:2017
+              radius=10
+              fills: SOLID rgb(255,255,255)
+        - FRAME "Container" [-384,-2269 36x18] id=4:2018
+            layout=VERTICAL counter=CENTER
+          - TEXT "Proof" [-384,-2269 36x18] id=4:2019
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/17.850 tracking=0.00 align=CENTER
+              text: "Proof"
+      - FRAME "Heading 2" [-740,-2231 700x50] id=4:2020
+          layout=VERTICAL counter=CENTER
+        - TEXT "Delivered work you can check." [-685,-2231 590x50] id=4:2021
+            fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+            font=Neue Montreal 500 45/49.950 tracking=0.00 align=CENTER
+            text: "Delivered work you can check."
+    - FRAME "Container" [-1030,-2131 1280x402] id=4:2022
+        layout=GRID
+      - FRAME "Background+Overlay+Border" [-1030,-2131 638x424] id=4:2023
+          layout=VERTICAL primary=MAX counter=CENTER gap=12 pad=255/26/26/26 radius=20
+          fills: SOLID rgb(25,25,25) | GRADIENT_RADIAL 0%:rgba(255,98,31,0.114) 70%:rgba(255,98,31,0)
+          STROKE SOLID rgb(255,255,255) w=1
+        - FRAME "Background:align-flex-start" [-1004,-1875 586x21] id=4:2024
+            layout=VERTICAL primary=MAX pad=0/547.4400024414062/0/1
+          - FRAME "Background" [-1003,-1875 37x21] id=4:2025
+              layout=HORIZONTAL counter=CENTER pad=3/12/3/12 radius=12
+              fills: SOLID rgb(255,255,255)
+            - TEXT "01" [-991,-1872 13x15] id=4:2026
+                fills: SOLID rgb(0,0,0)
+                font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                text: "01"
+        - FRAME "Heading 4" [-1003,-1842 584x33] id=4:2027
+            layout=VERTICAL
+          - TEXT "ZAKA" [-1003,-1842 79x33] id=4:2028
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "ZAKA"
+        - FRAME "Container" [-1003,-1797 584x63] id=4:2029
+            layout=VERTICAL
+          - TEXT "AI education platform for the MENA region. Visual identity, website, and dashboard interface delivered over three months." [-1003,-1797 584x63] id=4:2030
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/21 tracking=0.00 align=LEFT
+              text: "AI education platform for the MENA region. Visual identity, website, and dashboard interface\\ndelivered over three months."
+      - FRAME "Overlay+Border" [-378,-2131 307x216] id=4:2031
+          layout=VERTICAL counter=CENTER gap=12 pad=26/26/26/26 radius=20
+          fills: SOLID rgb(25,25,25)
+          STROKE SOLID rgb(255,255,255) w=1
+        - FRAME "Background:align-flex-start" [-352,-2104 255x21] id=4:2032
+            layout=VERTICAL pad=0/216.72999572753906/0/1
+          - FRAME "Background" [-351,-2104 39x21] id=4:2033
+              layout=HORIZONTAL counter=CENTER pad=3/12/3/12 radius=12
+              fills: SOLID rgb(255,255,255)
+            - TEXT "02" [-339,-2101 15x15] id=4:2034
+                fills: SOLID rgb(0,0,0)
+                font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                text: "02"
+        - FRAME "Heading 4" [-351,-2071 253x33] id=4:2035
+            layout=VERTICAL
+          - TEXT "Bioflex Aesthetics" [-351,-2071 234x33] id=4:2036
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "Bioflex Aesthetics"
+        - FRAME "Container" [-351,-2026 253x84] id=4:2037
+            layout=VERTICAL
+          - TEXT "Skincare brand. Packaging, ecommerce direction, and website experience delivered over two months." [-351,-2026 253x84] id=4:2038
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/21 tracking=0.00 align=LEFT
+              text: "Skincare brand. Packaging, ecommerce\\ndirection, and website experience\\ndelivered over two months."
+      - FRAME "Overlay+Border" [-57,-2131 307x195] id=4:2039
+          layout=VERTICAL counter=CENTER gap=12 pad=26/26/26/26 radius=20
+          fills: SOLID rgb(25,25,25)
+          STROKE SOLID rgb(255,255,255) w=1
+        - FRAME "Background:align-flex-start" [-31,-2104 255x21] id=4:2040
+            layout=VERTICAL pad=0/216.75/0/1
+          - FRAME "Background" [-30,-2104 40x21] id=4:2041
+              layout=HORIZONTAL counter=CENTER pad=3/12/3/12 radius=12
+              fills: SOLID rgb(255,255,255)
+            - TEXT "03" [-18,-2101 16x15] id=4:2042
+                fills: SOLID rgb(0,0,0)
+                font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                text: "03"
+        - FRAME "Heading 4" [-30,-2071 253x33] id=4:2043
+            layout=VERTICAL
+          - TEXT "House Pickleball" [-30,-2071 215x33] id=4:2044
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "House Pickleball"
+        - FRAME "Container" [-30,-2026 253x63] id=4:2045
+            layout=VERTICAL
+          - TEXT "Brand strategy and a live store built around a headless commerce experience." [-30,-2026 253x63] id=4:2046
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/21 tracking=0.00 align=LEFT
+              text: "Brand strategy and a live store built\\naround a headless commerce\\nexperience."
+      - FRAME "Overlay+Border" [-378,-1923 628x195] id=4:2047
+          layout=VERTICAL counter=CENTER gap=12 pad=26/26/68/26 radius=20
+          fills: SOLID rgb(25,25,25)
+          STROKE SOLID rgb(255,255,255) w=1
+        - FRAME "Background:align-flex-start" [-352,-1896 576x21] id=4:2048
+            layout=VERTICAL pad=0/537.8400268554688/0/1
+          - FRAME "Background" [-351,-1896 40x21] id=4:2049
+              layout=HORIZONTAL counter=CENTER pad=3/12/3/12 radius=12
+              fills: SOLID rgb(255,255,255)
+            - TEXT "04" [-339,-1893 16x15] id=4:2050
+                fills: SOLID rgb(0,0,0)
+                font=Onest 400 12/15.299 tracking=0.00 align=LEFT
+                text: "04"
+        - FRAME "Heading 4" [-351,-1863 574x33] id=4:2051
+            layout=VERTICAL
+          - TEXT "NUST" [-351,-1863 78x33] id=4:2052
+              fills: GRADIENT_LINEAR 5%:rgb(155,155,155) 50%:rgb(237,235,232) 93%:rgb(155,155,155)
+              font=Neue Montreal 500 30/33 tracking=0.00 align=LEFT
+              text: "NUST"
+        - FRAME "Container" [-351,-1818 574x21] id=4:2053
+            layout=VERTICAL
+          - TEXT "University project. Responsive interface work delivered to institutional standards." [-351,-1818 574x21] id=4:2054
+              fills: SOLID rgb(220,220,220)
+              font=Onest 400 14/21 tracking=0.00 align=LEFT
+              text: "University project. Responsive interface work delivered to institutional standards."
