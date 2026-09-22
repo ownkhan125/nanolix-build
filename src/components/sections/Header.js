@@ -1,10 +1,38 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Logo } from "@/components/primitives/Icons";
 import Button from "@/components/primitives/Button";
 import { nav } from "@/data/content";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(null);
+
+  useEffect(() => {
+    const ids = nav.map((n) => n.href.slice(1));
+    const els = ids
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
+    if (!els.length) return;
+
+    // Header is 53px sticky. Activate when a section's top has crossed the header
+    // and it occupies the top ~45% of the viewport. Falls out of the "active band"
+    // when the next section takes over, so scroll spy stays accurate.
+    const io = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.filter((e) => e.isIntersecting);
+        if (!visible.length) return;
+        visible.sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        setActive(`#${visible[0].target.id}`);
+      },
+      {
+        rootMargin: "-53px 0px -55% 0px",
+        threshold: [0, 0.25, 0.5, 0.75, 1],
+      }
+    );
+
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
 
   return (
     <header
@@ -35,22 +63,28 @@ export default function Header() {
           style={{ display: "flex", alignItems: "center", gap: 32 }}
           className="hidden-mobile"
         >
-          {nav.map((n) => (
-            <a
-              key={n.href}
-              href={n.href}
-              style={{
-                color: "#a1a1aa",
-                fontSize: 16,
-                letterSpacing: "-0.02em",
-                transition: "color 0.15s ease",
-              }}
-              onMouseOver={(e) => (e.currentTarget.style.color = "#fff")}
-              onMouseOut={(e) => (e.currentTarget.style.color = "#a1a1aa")}
-            >
-              {n.label}
-            </a>
-          ))}
+          {nav.map((n) => {
+            const isActive = active === n.href;
+            return (
+              <a
+                key={n.href}
+                href={n.href}
+                aria-current={isActive ? "true" : undefined}
+                style={{
+                  color: isActive ? "#fff" : "#a1a1aa",
+                  fontSize: 16,
+                  letterSpacing: "-0.02em",
+                  transition: "color 0.2s ease",
+                }}
+                onMouseOver={(e) => (e.currentTarget.style.color = "#fff")}
+                onMouseOut={(e) =>
+                  (e.currentTarget.style.color = isActive ? "#fff" : "#a1a1aa")
+                }
+              >
+                {n.label}
+              </a>
+            );
+          })}
         </nav>
 
         <div className="hidden-mobile">
@@ -126,16 +160,24 @@ export default function Header() {
               paddingBottom: 24,
             }}
           >
-            {nav.map((n) => (
-              <a
-                key={n.href}
-                href={n.href}
-                onClick={() => setOpen(false)}
-                style={{ color: "#dcdcdc", fontSize: 16 }}
-              >
-                {n.label}
-              </a>
-            ))}
+            {nav.map((n) => {
+              const isActive = active === n.href;
+              return (
+                <a
+                  key={n.href}
+                  href={n.href}
+                  aria-current={isActive ? "true" : undefined}
+                  onClick={() => setOpen(false)}
+                  style={{
+                    color: isActive ? "#fff" : "#dcdcdc",
+                    fontSize: 16,
+                    transition: "color 0.2s ease",
+                  }}
+                >
+                  {n.label}
+                </a>
+              );
+            })}
             <Button
               href="#apply"
               className="btn-primary--sm"
