@@ -15,17 +15,85 @@ export const audiences = [
   { label: "Founders & Services" },
 ];
 
-export const audienceProfile = {
-  heading: "Give the label a home it can grow into.",
-  body: "The lookbook lives on a feed you rent. The brand should live somewhere you own.",
-  bullets: [
-    "Press has somewhere to point.",
-    "The drop outlives the feed.",
-    "Wholesale takes you seriously.",
-  ],
-  closest: "Bioflex Aesthetics",
-  typicalPages: ["Home", "Collection", "Story", "Stockists", "Contact"],
-};
+export const audienceProfiles = [
+  {
+    heading: "Give the label a home it can grow into.",
+    body: "The lookbook lives on a feed you rent. The brand should live somewhere you own.",
+    bullets: [
+      "Press has somewhere to point.",
+      "The drop outlives the feed.",
+      "Wholesale takes you seriously.",
+    ],
+    closest: "Bioflex Aesthetics",
+    typicalPages: ["Home", "Collection", "Story", "Stockists", "Contact"],
+  },
+  {
+    heading: "The shop online should feel like the shop on the street.",
+    body: "People check you online before they decide to drive over. That check is the visit.",
+    bullets: [
+      "Nobody messages to ask the hours.",
+      "The shelves work the night shift.",
+      "Reviews start pulling weight.",
+    ],
+    closest: "House Pickleball",
+    typicalPages: ["Home", "What We Stock", "Visit Us", "Reviews", "Contact"],
+  },
+  {
+    heading: "Every piece is deliberate. The website should be too.",
+    body: "High-value buyers research quietly long before they walk in or write to you.",
+    bullets: [
+      "The quiet vetting goes your way.",
+      "Enquiries arrive better prepared.",
+      "The craft finally photographs right.",
+    ],
+    closest: "ZAKA",
+    typicalPages: ["Home", "Collections", "Provenance", "Viewings", "Contact"],
+  },
+  {
+    heading: "The consultation starts before they call.",
+    body: "People compare clinics privately. Your website is the part of that comparison you control.",
+    bullets: [
+      "Treatments are explained clearly.",
+      "Bookings stop living in messages.",
+      "You look like the practice people already hope you are.",
+    ],
+    closest: "Bioflex Aesthetics",
+    typicalPages: ["Home", "Treatments", "About the Practice", "Results Policy", "Contact"],
+  },
+  {
+    heading: "The product is ready. The shelf is not enough.",
+    body: "Buyers, partners, and customers all land in the same place. Make it worth landing on.",
+    bullets: [
+      "The line is presented in one place.",
+      "Retail conversations open faster.",
+      "Customers find you after the shelf.",
+    ],
+    closest: "House Pickleball",
+    typicalPages: ["Home", "Products", "Our Story", "Stockists", "Contact"],
+  },
+  {
+    heading: "Your product is serious. Make the website match.",
+    body: "Investors, hires, and buyers look you up before they reply to anything.",
+    bullets: [
+      "Diligence stops hurting you.",
+      "The product explains itself.",
+      "Hiring gets easier.",
+    ],
+    closest: "ZAKA",
+    typicalPages: ["Home", "Product", "Who It’s For", "About", "Contact"],
+  },
+  {
+    heading: "Look like the business you already are.",
+    body: "The work is excellent. The link you sent does not say so yet.",
+    bullets: [
+      "The search ends well.",
+      "Inquiries get a front door.",
+      "You stop apologizing for the link.",
+    ],
+    closest: "NUST",
+    typicalPages: ["Home", "Services", "Work", "About", "Contact"],
+  },
+];
 
 export const howItWorks = [
   {
@@ -227,11 +295,32 @@ export const notFor = [
 ];
 
 export const faqs = [
-  { q: "Is this actually free?" },
-  { q: "What is the catch?" },
-  { q: "Do I own the website?" },
-  { q: "What if I change my mind?" },
-  { q: "Do I have to use your hosting?" },
-  { q: "How long does it take?" },
-  { q: "Why is it application based?" },
+  {
+    q: "Is this actually free?",
+    a: "There is no upfront design fee. You pay for the care plan, $39 to $59 a month, six month minimum plus any optional upgrades you choose. All of it is explained on this page.",
+  },
+  {
+    q: "What is the catch?",
+    a: "The commitment is the care plan. Beyond that, we build these sites to meet businesses we might grow with later, and you are never obligated to buy anything else.",
+  },
+  {
+    q: "Do I own the website?",
+    a: "Yes. It is yours, and you get edit guidance at handover so you are never locked into asking us for every small change.",
+  },
+  {
+    q: "What if I change my mind?",
+    a: "Cancel within the first 30 days and your care plan payments are refunded.",
+  },
+  {
+    q: "Do I have to use your hosting?",
+    a: "The care plan includes managed hosting, which keeps the site healthy and supported. If you have your own, tell us on the call or in your application and we will work out a setup and maintenance arrangement.",
+  },
+  {
+    q: "How long does it take?",
+    a: "Typically one to two weeks after you send your content, using the kit we provide at acceptance.",
+  },
+  {
+    q: "Why is it application based?",
+    a: "We take a limited number of builds each month so every project gets real attention. Anyone can book the call; the build spot is confirmed after we review the application for fit.",
+  },
 ];

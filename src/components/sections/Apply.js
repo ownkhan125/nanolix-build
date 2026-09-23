@@ -1,6 +1,7 @@
 import Eyebrow from "@/components/primitives/Eyebrow";
 import Button from "@/components/primitives/Button";
 import { CalendarIcon } from "@/components/primitives/Icons";
+import { CALENDLY_URL, openCalendly } from "@/lib/calendly";
 
 export default function Apply() {
   return (
@@ -171,7 +172,7 @@ export default function Apply() {
                 <br />
                 time.
               </p>
-              <Button href="#cta">Show available times</Button>
+              <Button href={CALENDLY_URL} onClick={openCalendly}>Show available times</Button>
             </div>
             <p
               style={{
@@ -183,7 +184,9 @@ export default function Apply() {
             >
               Calendar not loading?{" "}
               <a
-                href="#cta"
+                href={CALENDLY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   color: "#ff621f",
                   textDecoration: "underline",

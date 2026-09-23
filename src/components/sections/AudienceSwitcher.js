@@ -2,10 +2,11 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import Eyebrow from "@/components/primitives/Eyebrow";
 import { Check } from "@/components/primitives/Icons";
-import { audiences, audienceProfile } from "@/data/content";
+import { audiences, audienceProfiles } from "@/data/content";
 
 export default function AudienceSwitcher() {
   const [active, setActive] = useState(0);
+  const profile = audienceProfiles[active] ?? audienceProfiles[0];
 
   return (
     <section id="audience" style={{ paddingTop: 30, paddingBottom: 80 }}>
@@ -109,7 +110,7 @@ export default function AudienceSwitcher() {
                   margin: "0",
                 }}
               >
-                {audienceProfile.heading}
+                {profile.heading}
               </h3>
               <p
                 style={{
@@ -120,7 +121,7 @@ export default function AudienceSwitcher() {
                   maxWidth: 549,
                 }}
               >
-                {audienceProfile.body}
+                {profile.body}
               </p>
               <hr
                 style={{
@@ -140,7 +141,7 @@ export default function AudienceSwitcher() {
                   gap: 14,
                 }}
               >
-                {audienceProfile.bullets.map((b) => (
+                {profile.bullets.map((b) => (
                   <li
                     key={b}
                     style={{
@@ -182,7 +183,7 @@ export default function AudienceSwitcher() {
                     marginTop: 6,
                   }}
                 >
-                  {audienceProfile.closest}
+                  {profile.closest}
                 </div>
               </div>
 
@@ -197,7 +198,7 @@ export default function AudienceSwitcher() {
                     margin: "12px 0 0 0",
                   }}
                 >
-                  {audienceProfile.typicalPages.map((p, i) => (
+                  {profile.typicalPages.map((p, i) => (
                     <li
                       key={p}
                       style={{
@@ -206,7 +207,7 @@ export default function AudienceSwitcher() {
                         gap: 10,
                         padding: "11px 0",
                         borderBottom:
-                          i < audienceProfile.typicalPages.length - 1
+                          i < profile.typicalPages.length - 1
                             ? "1px solid rgba(255,255,255,0.04)"
                             : "0",
                       }}

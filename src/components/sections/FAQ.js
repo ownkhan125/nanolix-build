@@ -109,6 +109,18 @@ export default function FAQ() {
                   {open === i ? <Minus /> : <Plus />}
                 </span>
               </button>
+              {open === i && f.a ? (
+                <div
+                  style={{
+                    padding: "0 40px 22px 40px",
+                    color: "#dcdcdc",
+                    fontSize: 16,
+                    lineHeight: 1.6,
+                  }}
+                >
+                  {f.a}
+                </div>
+              ) : null}
             </motion.div>
           ))}
         </div>

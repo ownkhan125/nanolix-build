@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import Script from "next/script";
 import { Onest } from "next/font/google";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
@@ -33,7 +34,15 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
+        <link
+          rel="stylesheet"
+          href="https://assets.calendly.com/assets/external/widget.css"
+        />
       </Head>
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="afterInteractive"
+      />
       <div className={onest.variable} style={{ fontFamily: "var(--font-onest), Onest, system-ui, sans-serif" }}>
         <Component {...pageProps} />
       </div>

@@ -1,4 +1,5 @@
 import Button from "@/components/primitives/Button";
+import { CALENDLY_URL, openCalendly } from "@/lib/calendly";
 
 export default function CTA() {
   return (
@@ -68,7 +69,7 @@ export default function CTA() {
           <Button href="#apply">
             Apply in 2 minutes
           </Button>
-          <Button href="#apply" variant="secondary">
+          <Button href={CALENDLY_URL} variant="secondary" onClick={openCalendly}>
             Book a 15-Minute Call
           </Button>
         </div>

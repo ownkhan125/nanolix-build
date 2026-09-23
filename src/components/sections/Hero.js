@@ -1,5 +1,6 @@
 import Button from "@/components/primitives/Button";
 import { Check } from "@/components/primitives/Icons";
+import { CALENDLY_URL, openCalendly } from "@/lib/calendly";
 
 export default function Hero() {
   return (
@@ -123,7 +124,7 @@ export default function Hero() {
           }}
         >
           <Button href="#apply">Apply in 2 minutes</Button>
-          <Button href="#apply" variant="secondary">
+          <Button href={CALENDLY_URL} variant="secondary" onClick={openCalendly}>
             Book a 15-Minute Call
           </Button>
         </div>
