@@ -315,19 +315,19 @@ video {
 /* BeforeAfter */
 .ba-grid {
   display: grid;
-  grid-template-columns: 490px 1fr;
+  grid-template-columns: 490px minmax(0, 1fr);
   gap: 60px;
   align-items: start;
 }
 @media (max-width: 1099px) {
   .ba-grid {
-    grid-template-columns: 420px 1fr;
-    gap: 40px;
+    grid-template-columns: 400px minmax(0, 1fr);
+    gap: 32px;
   }
 }
 @media (max-width: 991px) {
   .ba-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 40px;
   }
 }
@@ -345,7 +345,7 @@ video {
 /* TrustBar */
 .trust-grid {
   display: grid;
-  grid-template-columns: 749px 1fr;
+  grid-template-columns: minmax(0, 1fr) 320px;
   gap: 12px;
   position: relative;
 }
@@ -356,19 +356,19 @@ video {
 }
 @media (max-width: 991px) {
   .trust-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
 /* Audience Switcher */
 .aud-grid {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 30px;
 }
 .aud-right {
   display: grid;
-  grid-template-columns: 580px 348px;
+  grid-template-columns: minmax(0, 580fr) minmax(0, 348fr);
   gap: 24px;
 }
 .aud-side {
@@ -377,12 +377,12 @@ video {
 }
 @media (max-width: 1099px) {
   .aud-right {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 @media (max-width: 767px) {
   .aud-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
@@ -442,7 +442,7 @@ video {
 /* Scope Sheet */
 .scope-grid {
   display: grid;
-  grid-template-columns: 864px 416px;
+  grid-template-columns: minmax(0, 864fr) minmax(0, 416fr);
 }
 .scope-col-included {
   padding: 38px 36px 38px 0;
@@ -454,7 +454,7 @@ video {
 }
 @media (max-width: 991px) {
   .scope-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .scope-col-included {
     border-right: 0;
@@ -465,11 +465,11 @@ video {
 /* Where the Money */
 .money-grid {
   display: grid;
-  grid-template-columns: 576px 352px 352px;
+  grid-template-columns: minmax(0, 576fr) minmax(0, 352fr) minmax(0, 352fr);
 }
 @media (max-width: 1099px) {
   .money-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .money-card {
     border-right: 0 !important;
@@ -483,7 +483,7 @@ video {
 /* Care Plans */
 .care-grid {
   display: grid;
-  grid-template-columns: 353px 538px 353px;
+  grid-template-columns: minmax(0, 353fr) minmax(0, 538fr) minmax(0, 353fr);
   gap: 18px;
   align-items: center;
   justify-content: center;
@@ -492,14 +492,9 @@ video {
   grid-column: 2;
   grid-row: 1;
 }
-@media (max-width: 1279px) {
-  .care-grid {
-    grid-template-columns: 1fr 1.5fr 1fr;
-  }
-}
 @media (max-width: 991px) {
   .care-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     justify-content: stretch;
   }
   .care-card--featured {
@@ -510,13 +505,13 @@ video {
 /* Upgrade Ladder */
 .ladder-row {
   display: grid;
-  grid-template-columns: 502px 1fr;
+  grid-template-columns: 502px minmax(0, 1fr);
   gap: 30px;
   align-items: start;
 }
 @media (max-width: 767px) {
   .ladder-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
 }
@@ -524,7 +519,7 @@ video {
 /* Proof */
 .proof-grid {
   display: grid;
-  grid-template-columns: 638px 307px 307px;
+  grid-template-columns: minmax(0, 638fr) minmax(0, 307fr) minmax(0, 307fr);
   grid-template-rows: auto auto;
   gap: 24px;
 }
@@ -537,7 +532,7 @@ video {
 }
 @media (max-width: 1099px) {
   .proof-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
   .proof-card--large,
   .proof-card--wide {
@@ -548,7 +543,7 @@ video {
 }
 @media (max-width: 640px) {
   .proof-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .proof-card--large,
   .proof-card--wide {
@@ -559,11 +554,11 @@ video {
 /* Fit / Not Fit */
 .fit-grid {
   display: grid;
-  grid-template-columns: 800px 480px;
+  grid-template-columns: minmax(0, 800fr) minmax(0, 480fr);
 }
 @media (max-width: 1099px) {
   .fit-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .fit-col--right {
     border-left: 0 !important;
@@ -588,25 +583,25 @@ video {
 /* Apply */
 .apply-grid {
   display: grid;
-  grid-template-columns: 783px 470px;
+  grid-template-columns: minmax(0, 783fr) minmax(0, 470fr);
   gap: 28px;
   align-items: start;
 }
 @media (max-width: 1099px) {
   .apply-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
 /* Footer */
 .footer-grid {
   display: grid;
-  grid-template-columns: 465px 1fr;
+  grid-template-columns: 465px minmax(0, 1fr);
   gap: 60px;
 }
 @media (max-width: 991px) {
   .footer-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 30px;
   }
 }
@@ -616,6 +611,13 @@ video {
   .hero-h1 br {
     display: none;
   }
+}
+
+/* Responsive typography — every section H2 uses data-reveal-heading. Scale it
+   down on narrower viewports so it never crowds a 375px screen or dominates
+   an 800px tablet. Uses clamp with vw so it grows smoothly with viewport. */
+h2[data-reveal-heading] {
+  font-size: clamp(30px, 4.6vw, 45px) !important;
 }
 
 /* Masked heading reveal (word-by-word, driven by GSAP + ScrollTrigger) */
