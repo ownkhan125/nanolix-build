@@ -132,7 +132,7 @@ export default function Hero() {
         <div
           style={{
             display: "flex",
-            alignItems: "center",
+            alignItems: "flex-start",
             gap: 12,
             marginTop: 10,
             color: "#9b9b9b",

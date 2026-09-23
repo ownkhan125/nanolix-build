@@ -5,6 +5,7 @@ import { Onest } from "next/font/google";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { initHeadingReveal } from "@/lib/heading-reveal";
+import { initSmoothScroll } from "@/lib/smooth-scroll";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -17,6 +18,8 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
+    // Smooth scroll must init first so ScrollTrigger uses Lenis' scroll values.
+    const smoothCleanup = initSmoothScroll();
     const cleanupRef = { current: null };
     const raf = requestAnimationFrame(() => {
       cleanupRef.current = initHeadingReveal();
@@ -24,6 +27,7 @@ export default function App({ Component, pageProps }) {
     return () => {
       cancelAnimationFrame(raf);
       if (cleanupRef.current) cleanupRef.current();
+      if (smoothCleanup) smoothCleanup();
     };
   }, [router.asPath]);
 

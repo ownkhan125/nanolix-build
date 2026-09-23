@@ -294,6 +294,43 @@ video {
   }
 }
 
+/* Header container — like .content but keeps horizontal breathing room at every viewport so the logo and CTA never touch the edge. */
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .header-inner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .header-inner {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+nav.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+@media (max-width: 1099px) {
+  nav.header-nav {
+    gap: 24px;
+  }
+}
+@media (max-width: 767px) {
+  nav.header-nav {
+    display: none;
+  }
+}
+
 /* Responsive visibility helpers */
 .hidden-mobile {
   display: initial;
@@ -579,6 +616,73 @@ video {
     gap: 30px;
   }
 }
+.faq-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 40px;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  min-height: 80px;
+}
+.faq-toggle-text {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 18px 0;
+}
+.faq-toggle-icon {
+  height: 78px;
+  width: 86px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #222223, #1d1d1d);
+  transition: background 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  flex-shrink: 0;
+}
+.faq-toggle:hover .faq-toggle-icon,
+.faq-toggle[aria-expanded="true"] .faq-toggle-icon {
+  background: linear-gradient(180deg, #2b2b2c, #232323);
+}
+.faq-answer {
+  padding: 0 40px 22px 93px;
+}
+.faq-answer-text {
+  color: #c9c9c9;
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  margin: 0;
+  max-width: 68ch;
+}
+@media (max-width: 767px) {
+  .faq-toggle {
+    padding-left: 20px;
+    min-height: 68px;
+  }
+  .faq-toggle-text {
+    gap: 20px;
+    padding: 14px 0;
+  }
+  .faq-toggle-icon {
+    height: 66px;
+    width: 68px;
+  }
+  .faq-num,
+  .faq-question {
+    font-size: 17px !important;
+  }
+  .faq-answer {
+    padding: 0 20px 18px 53px;
+  }
+  .faq-answer-text {
+    font-size: 15px;
+  }
+}
 
 /* Apply */
 .apply-grid {
@@ -591,6 +695,18 @@ video {
   .apply-grid {
     grid-template-columns: minmax(0, 1fr);
   }
+}
+
+/* Calendly's injected iframe carries its own height. Force it to fill the
+   fixed-height container so the Step 3 calendar renders without a dead zone. */
+.apply-calendar-embed,
+.apply-calendar-embed iframe {
+  width: 100%;
+  border: 0;
+}
+.apply-calendar-embed iframe {
+  height: 100% !important;
+  display: block;
 }
 
 /* Footer */

@@ -57,19 +57,56 @@ function injectBorder(section) {
   return border;
 }
 
+// Selectors for grid containers whose *children* should stagger individually
+// rather than the whole grid animating as one block. Keeps card/tile reveals
+// feeling considered instead of "everything fades at once".
+const STAGGER_GRID_SELECTOR = [
+  ".care-grid",
+  ".money-grid",
+  ".proof-grid",
+  ".fit-grid",
+  ".scope-grid",
+  ".how-grid",
+  ".faq-grid",
+  ".trust-grid",
+  ".footer-grid",
+  ".apply-grid",
+  ".aud-right",
+].join(", ");
+
 function collectContentChildren(section, heading) {
   const container = section.querySelector(".content") || section;
-  return Array.from(container.children).filter(
+  const topLevel = Array.from(container.children).filter(
     (el) =>
       el !== heading &&
       !el.classList.contains("sr-border") &&
       !el.hasAttribute("aria-hidden")
   );
+  // Flatten grid containers: instead of animating the whole grid as one node,
+  // animate each direct grid item so cards ripple in with a tight stagger.
+  const flat = [];
+  for (const el of topLevel) {
+    // A top-level child may itself be a grid, OR contain a grid (e.g. a wrapper div).
+    let gridHost = el.matches?.(STAGGER_GRID_SELECTOR) ? el : el.querySelector?.(STAGGER_GRID_SELECTOR);
+    if (gridHost && gridHost.children.length > 1) {
+      // If the grid is nested inside a wrapper, we still want the wrapper's
+      // preceding siblings visible — so we push the wrapper too, but pass the
+      // grid children through as the animatable set.
+      if (gridHost !== el) flat.push(el);
+      for (const gc of gridHost.children) flat.push(gc);
+    } else {
+      flat.push(el);
+    }
+  }
+  return flat;
 }
 
 export function initHeadingReveal(root = document) {
   if (typeof window === "undefined") return () => {};
   ensureRegistered();
+
+  const prefersReducedMotion =
+    window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
   const sections = Array.from(root.querySelectorAll("main > section"));
   const triggers = [];
@@ -92,14 +129,19 @@ export function initHeadingReveal(root = document) {
     if (isHero) {
       section.dataset.revealApplied = "true";
       if (words.length === 0) continue;
+      if (prefersReducedMotion) {
+        gsap.set(words, { yPercent: 0 });
+        continue;
+      }
       const tl = gsap.timeline({ paused: true });
       tl.fromTo(
         words,
-        { yPercent: 115 },
+        { yPercent: 118 },
         {
           yPercent: 0,
-          duration: 0.95,
-          ease: "power3.out",
+          duration: 1.05,
+          ease: "expo.out",
+          stagger: 0.02,
         }
       );
       const st = ScrollTrigger.create({
@@ -119,44 +161,55 @@ export function initHeadingReveal(root = document) {
     const border = injectBorder(section);
     const children = collectContentChildren(section, heading);
 
-    const tl = gsap.timeline({
-      paused: true,
-      defaults: { ease: "power3.out" },
-    });
+    if (prefersReducedMotion) {
+      section.dataset.revealApplied = "true";
+      gsap.set(border, { scaleX: 1, opacity: 1 });
+      if (words.length) gsap.set(words, { yPercent: 0 });
+      if (children.length) gsap.set(children, { opacity: 1, y: 0 });
+      continue;
+    }
 
-    // 1) Border draws (0.00 → 0.55) — subtle horizontal accent above the eyebrow
+    const tl = gsap.timeline({ paused: true });
+
+    // 1) Border draws — quick, confident line, sets the entrance tone (0.00 → 0.65)
     tl.fromTo(
       border,
       { scaleX: 0, opacity: 0 },
-      { scaleX: 1, opacity: 1, duration: 0.55, ease: "power2.inOut" },
+      { scaleX: 1, opacity: 1, duration: 0.65, ease: "power3.out" },
       0
     );
 
-    // 2) Heading words reveal — all together as one cohesive heading (0.25 → 1.15)
+    // 2) Heading words rise from behind their masks — long tail expo.out reads
+    //    as intentional and premium, tiny stagger keeps them cohesive (0.18 → 1.3)
     if (words.length > 0) {
       tl.fromTo(
         words,
-        { yPercent: 115 },
+        { yPercent: 118 },
         {
           yPercent: 0,
-          duration: 0.9,
+          duration: 1.1,
+          ease: "expo.out",
+          stagger: 0.025,
         },
-        0.25
+        0.18
       );
     }
 
-    // 3) Remaining content children fade + slide up (0.5 → ~1.3, staggered)
+    // 3) Content children — cards/grids stagger individually where possible.
+    //    Slightly lifted (y:22) with a soft power3 curve. Tight stagger keeps
+    //    the wave short so the whole section settles quickly.
     if (children.length > 0) {
       tl.fromTo(
         children,
-        { opacity: 0, y: 28 },
+        { opacity: 0, y: 22 },
         {
           opacity: 1,
           y: 0,
-          duration: 0.7,
-          stagger: { each: 0.09, from: "start" },
+          duration: 0.85,
+          ease: "power3.out",
+          stagger: { each: 0.07, from: "start" },
         },
-        0.5
+        0.45
       );
     }
 
@@ -166,7 +219,6 @@ export function initHeadingReveal(root = document) {
       end: "bottom 20%",
       onEnter: () => tl.play(),
       onEnterBack: () => tl.play(),
-      onLeave: () => {},
       onLeaveBack: () => tl.reverse(),
       invalidateOnRefresh: true,
     });

@@ -47,22 +47,24 @@ export default function Header() {
       }}
     >
       <div
-        className="content"
+        className="header-inner"
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          height: 53,
+          height: 64,
+          gap: 32,
         }}
       >
-        <a href="#top" aria-label="Nanolix" style={{ display: "inline-flex" }}>
+        <a
+          href="#top"
+          aria-label="Nanolix"
+          style={{ display: "inline-flex", flexShrink: 0 }}
+        >
           <Logo width={130} height={38} />
         </a>
 
-        <nav
-          style={{ display: "flex", alignItems: "center", gap: 32 }}
-          className="hidden-mobile"
-        >
+        <nav className="header-nav hidden-mobile">
           {nav.map((n) => {
             const isActive = active === n.href;
             return (
@@ -72,9 +74,10 @@ export default function Header() {
                 aria-current={isActive ? "true" : undefined}
                 style={{
                   color: isActive ? "#fff" : "#a1a1aa",
-                  fontSize: 16,
+                  fontSize: 15,
                   letterSpacing: "-0.02em",
                   transition: "color 0.2s ease",
+                  padding: "6px 2px",
                 }}
                 onMouseOver={(e) => (e.currentTarget.style.color = "#fff")}
                 onMouseOut={(e) =>
@@ -87,11 +90,11 @@ export default function Header() {
           })}
         </nav>
 
-        <div className="hidden-mobile">
+        <div className="hidden-mobile" style={{ flexShrink: 0 }}>
           <Button
             href="#apply"
             className="btn-primary--sm"
-            style={{ padding: "12px 34px 12px 28px" }}
+            style={{ padding: "10px 32px 10px 26px" }}
           >
             Apply
           </Button>
@@ -105,11 +108,14 @@ export default function Header() {
           className="only-mobile"
           style={{
             display: "none",
-            width: 40,
-            height: 40,
+            width: 42,
+            height: 42,
             alignItems: "center",
             justifyContent: "center",
             borderRadius: 999,
+            border: "1px solid rgba(255,255,255,0.08)",
+            background: "rgba(255,255,255,0.02)",
+            flexShrink: 0,
           }}
         >
           <div style={{ position: "relative", width: 18, height: 12 }}>
@@ -151,7 +157,7 @@ export default function Header() {
           }}
         >
           <div
-            className="content"
+            className="header-inner"
             style={{
               display: "flex",
               flexDirection: "column",

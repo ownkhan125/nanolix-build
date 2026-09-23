@@ -156,7 +156,7 @@ export default function BeforeAfter() {
                 inset: 0,
                 background:
                   "radial-gradient(ellipse at 30% 40%, rgba(255,98,31,0.08) 0%, rgba(255,98,31,0) 70%), #0b0b0b",
-                padding: "48px 28px 28px",
+                padding: "22px 28px 28px",
                 boxSizing: "border-box",
                 clipPath: clipAfter,
                 WebkitClipPath: clipAfter,
@@ -213,7 +213,7 @@ export default function BeforeAfter() {
                 </span>
               </div>
 
-              <div className="ba-after-hero" style={{ maxWidth: 520, margin: "24px auto 0", textAlign: "center" }}>
+              <div className="ba-after-hero" style={{ maxWidth: 520, margin: "40px auto 0", textAlign: "center" }}>
                 <h3
                   style={{
                     color: "#fff",
@@ -302,23 +302,6 @@ export default function BeforeAfter() {
                     </div>
                   ))}
                 </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: 16,
-                  right: 24,
-                  background: "#191919",
-                  border: "1px solid rgba(255,255,255,0.14)",
-                  color: "#a6a6a6",
-                  padding: "4px 12px",
-                  borderRadius: 999,
-                  fontSize: 11,
-                  fontWeight: 500,
-                  letterSpacing: "0.12em",
-                }}
-              >
-                AFTER
               </div>
             </div>
 
