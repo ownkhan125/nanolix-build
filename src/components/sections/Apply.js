@@ -22,6 +22,8 @@ export default function Apply() {
   const [step, setStep] = useState(1);
   const [form, setForm] = useState(INITIAL_FORM);
   const [showError, setShowError] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(null);
   const calendarRef = useRef(null);
 
   const update = (name) => (e) => setForm((f) => ({ ...f, [name]: e.target.value }));
@@ -42,9 +44,27 @@ export default function Apply() {
     setStep(1);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setStep(3);
+    if (submitting) return;
+    setSubmitting(true);
+    setSubmitError(null);
+    try {
+      const r = await fetch("/api/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!r.ok) {
+        const j = await r.json().catch(() => ({}));
+        throw new Error(j.error || "Submission failed. Please try again.");
+      }
+      setStep(3);
+    } catch (err) {
+      setSubmitError(err.message || "Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   // Behaviour: submitting Step 2 loads the calendar beside the form.
@@ -223,8 +243,31 @@ export default function Apply() {
                   onChange={update("timeline")}
                 />
 
-                <Button type="submit" as="button" style={{ width: "100%" }}>
-                  Submit my application
+                {submitError && (
+                  <p
+                    role="alert"
+                    style={{
+                      color: "#ff8a5c",
+                      fontSize: 14,
+                      lineHeight: 1.45,
+                      margin: 0,
+                    }}
+                  >
+                    {submitError}
+                  </p>
+                )}
+
+                <Button
+                  type="submit"
+                  as="button"
+                  disabled={submitting}
+                  style={{
+                    width: "100%",
+                    opacity: submitting ? 0.7 : 1,
+                    cursor: submitting ? "wait" : "pointer",
+                  }}
+                >
+                  {submitting ? "Submitting…" : "Submit my application"}
                 </Button>
 
                 <p

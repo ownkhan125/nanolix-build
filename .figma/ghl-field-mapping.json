@@ -1,0 +1,54 @@
+{
+  "folderId": "afFp1Bek7ZJ6QeIjKWKb",
+  "folderName": "Nanolix Free Website Program",
+  "fields": {
+    "business": {
+      "id": "oZKmk9NzrCMAdYWVmfvK",
+      "name": "Business name and website if you have one",
+      "fieldKey": "contact.business_name_and_website_if_you_have_one",
+      "dataType": "TEXT"
+    },
+    "description": {
+      "id": "mysph3Qp0pdSlA7H9t0Q",
+      "name": "What does your business do, in one sentence?",
+      "fieldKey": "contact.what_does_your_business_do_in_one_sentence",
+      "dataType": "LARGE_TEXT"
+    },
+    "city": {
+      "id": "3vZ99n1X3g6gV11JCBMr",
+      "name": "City and country",
+      "fieldKey": "contact.city_and_country",
+      "dataType": "TEXT"
+    },
+    "role": {
+      "id": "ai36SyAInCgZ6gOXWJ10",
+      "name": "Your role",
+      "fieldKey": "contact.your_role",
+      "dataType": "TEXT"
+    },
+    "currentSite": {
+      "id": "QuGQexJbcq4R2ACoKgJP",
+      "name": "Do you have a website now and what is wrong with it?",
+      "fieldKey": "contact.do_you_have_a_website_now_and_what_is_wrong_with_it",
+      "dataType": "LARGE_TEXT"
+    },
+    "assets": {
+      "id": "CpzKybzSvs8rfQuGmVf7",
+      "name": "Do you have a logo, photos, and basic content ready?",
+      "fieldKey": "contact.do_you_have_a_logo_photos_and_basic_content_ready",
+      "dataType": "LARGE_TEXT"
+    },
+    "goal": {
+      "id": "bxyUL3TIH6F4O7bSfQ1X",
+      "name": "The number one thing you want the site to do",
+      "fieldKey": "contact.the_number_one_thing_you_want_the_site_to_do",
+      "dataType": "TEXT"
+    },
+    "timeline": {
+      "id": "k7HR7ZgFGNvwIo0TnDsI",
+      "name": "How soon do you need to launch?",
+      "fieldKey": "contact.how_soon_do_you_need_to_launch",
+      "dataType": "TEXT"
+    }
+  }
+}

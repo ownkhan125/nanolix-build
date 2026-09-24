@@ -37,7 +37,8 @@
       "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-smooth-scroll.js)",
       "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-faq.js)",
       "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-apply-flow.js)",
-      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-apply-calendar.js)"
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-apply-calendar.js)",
+      "Bash(NODE_PATH=\".agents/skills/playwright-skill/node_modules\" node .figma/pw-apply-ghl.js)"
     ]
   }
 }
